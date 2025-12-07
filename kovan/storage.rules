@@ -1,0 +1,58 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    function isValidImageType() {
+      return request.resource.contentType.matches('image/.*');
+    }
+    
+    function isValidFileSize() {
+      return request.resource.size < 10 * 1024 * 1024; // 10MB limit
+    }
+    
+    // User profile images
+    match /users/{userId}/profile/{fileName} {
+      allow read: if true; // Public read
+      allow write: if isSignedIn() && isOwner(userId) && 
+                      isValidImageType() && isValidFileSize();
+    }
+    
+    // User uploads (banners, etc.)
+    match /users/{userId}/uploads/{fileName} {
+      allow read: if true; // Public read
+      allow write: if isSignedIn() && isOwner(userId) && isValidFileSize();
+    }
+    
+    // Project images
+    match /projects/{projectId}/{fileName} {
+      allow read: if true; // Public read
+      allow write: if isSignedIn() && isValidFileSize();
+    }
+    
+    // Post images
+    match /posts/{postId}/{fileName} {
+      allow read: if true; // Public read
+      allow write: if isSignedIn() && isValidImageType() && isValidFileSize();
+    }
+    
+    // Event images
+    match /events/{eventId}/{fileName} {
+      allow read: if true; // Public read
+      allow write: if isSignedIn() && isValidFileSize();
+    }
+    
+    // Default deny
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

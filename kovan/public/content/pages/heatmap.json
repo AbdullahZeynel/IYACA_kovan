@@ -1,0 +1,263 @@
+{
+  "pageTitle": "Türkiye Gönüllülük Haritası",
+  "pageDescription": "Gönüllülüğün coğrafi yoğunluğunu görselleştiren interaktif harita",
+  "hero": {
+    "title": "Türkiye Gönüllülük Haritası",
+    "subtitle": "Her ilin gönüllülük yoğunluğunu ve etki potansiyelini keşfedin"
+  },
+  "mapDescription": {
+    "title": "Harita Nedir?",
+    "content": "Bu harita, Türkiye'nin 81 ilinde gönüllülüğün dağılımını ve yoğunluğunu görselleştirmektedir. Renk yoğunluğu ne kadar koyu ise, o ildeki gönüllülük etkinliği o kadar yüksektir.",
+    "legend": {
+      "title": "Renk Lejandı",
+      "description": "Gönüllü Yoğunluk Endeksi (0-100 ölçeğinde)",
+      "levels": [
+        {
+          "color": "#F0F4F8",
+          "range": "0-20",
+          "label": "Çok Düşük"
+        },
+        {
+          "color": "#B3D9E8",
+          "range": "20-40",
+          "label": "Düşük"
+        },
+        {
+          "color": "#5BA8D6",
+          "range": "40-60",
+          "label": "Orta"
+        },
+        {
+          "color": "#2E7FB8",
+          "range": "60-80",
+          "label": "Yüksek"
+        },
+        {
+          "color": "#1F4E79",
+          "range": "80-100",
+          "label": "Çok Yüksek"
+        }
+      ]
+    }
+  },
+  "methodology": {
+    "title": "Metodoloji",
+    "content": "Gönüllü Yoğunluk Endeksi, aşağıdaki metrikler kullanılarak hesaplanmaktadır:\n\n1. **Kayıtlı Gönüllü Oranı** (40% ağırlık): İldeki gönüllü sayısının, il nüfusuna oranı\n2. **Proje Yoğunluğu** (30% ağırlık): İlde yayınlanan ve tamamlanan proje sayısı\n3. **Ortalama Katkı Saati** (20% ağırlık): Gönüllülerin ortalama olarak harcadığı saat\n4. **Katılım Hızı** (10% ağırlık): Etkinlik çıkarsaları ile başvuru oranı\n\nVeriler, platform üzerinde sistematik olarak toplanmakta ve aylar bazında güncellenmektedir."
+  },
+  "provinces": {
+    "title": "İller Sıralaması",
+    "subtitle": "Gönüllü Yoğunluk Endeksine Göre Sıralanmış",
+    "description": "Aşağıdaki tablo, illeri gönüllü yoğunluğuna göre sırlamaktadır. Tıkla, sırala veya ara.",
+    "columns": [
+      {
+        "key": "rank",
+        "label": "#",
+        "sortable": true
+      },
+      {
+        "key": "province",
+        "label": "İl",
+        "sortable": true
+      },
+      {
+        "key": "index",
+        "label": "Endeks Değeri",
+        "sortable": true
+      },
+      {
+        "key": "volunteers",
+        "label": "Kayıtlı Gönüllü",
+        "sortable": true
+      },
+      {
+        "key": "projects",
+        "label": "Tamamlanan Proje",
+        "sortable": true
+      },
+      {
+        "key": "hours",
+        "label": "Toplam Saat",
+        "sortable": true
+      },
+      {
+        "key": "trend",
+        "label": "Trend",
+        "sortable": false
+      }
+    ],
+    "data": [
+      {"rank": 1, "province": "İstanbul", "plateCode": 34, "index": 94.5, "volunteers": 185420, "projects": 3240, "totalHours": 524680, "trend": "↑ +12%"},
+      {"rank": 2, "province": "Ankara", "plateCode": 6, "index": 88.2, "volunteers": 104350, "projects": 1850, "totalHours": 298450, "trend": "↑ +8%"},
+      {"rank": 3, "province": "İzmir", "plateCode": 35, "index": 85.7, "volunteers": 78290, "projects": 1620, "totalHours": 241850, "trend": "↑ +10%"},
+      {"rank": 4, "province": "Bursa", "plateCode": 16, "index": 72.3, "volunteers": 52180, "projects": 1120, "totalHours": 148920, "trend": "↑ +5%"},
+      {"rank": 5, "province": "Antalya", "plateCode": 7, "index": 68.9, "volunteers": 48340, "projects": 950, "totalHours": 128450, "trend": "↑ +7%"},
+      {"rank": 6, "province": "Gaziantep", "plateCode": 27, "index": 62.1, "volunteers": 35640, "projects": 720, "totalHours": 94280, "trend": "→ 0%"},
+      {"rank": 7, "province": "Kocaeli", "plateCode": 41, "index": 61.4, "volunteers": 34290, "projects": 680, "totalHours": 89640, "trend": "↑ +3%"},
+      {"rank": 8, "province": "Adana", "plateCode": 1, "index": 58.6, "volunteers": 31480, "projects": 620, "totalHours": 82150, "trend": "↑ +4%"},
+      {"rank": 9, "province": "Mersin", "plateCode": 33, "index": 55.2, "volunteers": 28340, "projects": 540, "totalHours": 72480, "trend": "↑ +6%"},
+      {"rank": 10, "province": "Konya", "plateCode": 42, "index": 52.8, "volunteers": 24850, "projects": 480, "totalHours": 64290, "trend": "↓ -2%"},
+      {"rank": 11, "province": "Eskişehir", "plateCode": 26, "index": 51.3, "volunteers": 23450, "projects": 465, "totalHours": 61230, "trend": "↑ +5%"},
+      {"rank": 12, "province": "Manisa", "plateCode": 45, "index": 49.8, "volunteers": 22180, "projects": 442, "totalHours": 58720, "trend": "↑ +3%"},
+      {"rank": 13, "province": "Kayseri", "plateCode": 38, "index": 48.2, "volunteers": 20940, "projects": 418, "totalHours": 55680, "trend": "→ 0%"},
+      {"rank": 14, "province": "Denizli", "plateCode": 20, "index": 46.7, "volunteers": 19650, "projects": 393, "totalHours": 52340, "trend": "↑ +4%"},
+      {"rank": 15, "province": "Tekirdağ", "plateCode": 59, "index": 45.1, "volunteers": 18420, "projects": 368, "totalHours": 49120, "trend": "↑ +6%"},
+      {"rank": 16, "province": "Balıkesir", "plateCode": 10, "index": 43.9, "volunteers": 17280, "projects": 345, "totalHours": 46240, "trend": "↑ +2%"},
+      {"rank": 17, "province": "Sakarya", "plateCode": 54, "index": 42.5, "volunteers": 16120, "projects": 322, "totalHours": 43180, "trend": "↑ +5%"},
+      {"rank": 18, "province": "Samsun", "plateCode": 55, "index": 41.2, "volunteers": 14980, "projects": 299, "totalHours": 40260, "trend": "↑ +3%"},
+      {"rank": 19, "province": "Aydın", "plateCode": 9, "index": 39.8, "volunteers": 13840, "projects": 276, "totalHours": 37320, "trend": "→ 0%"},
+      {"rank": 20, "province": "Muğla", "plateCode": 48, "index": 38.5, "volunteers": 12760, "projects": 255, "totalHours": 34480, "trend": "↑ +4%"},
+      {"rank": 21, "province": "Hatay", "plateCode": 31, "index": 37.2, "volunteers": 11640, "projects": 232, "totalHours": 31580, "trend": "↑ +2%"},
+      {"rank": 22, "province": "Trabzon", "plateCode": 61, "index": 35.9, "volunteers": 10580, "projects": 211, "totalHours": 28740, "trend": "↑ +5%"},
+      {"rank": 23, "province": "Şanlıurfa", "plateCode": 63, "index": 34.6, "volunteers": 9520, "projects": 190, "totalHours": 25960, "trend": "↑ +7%"},
+      {"rank": 24, "province": "Malatya", "plateCode": 44, "index": 33.4, "volunteers": 8480, "projects": 169, "totalHours": 23240, "trend": "→ 0%"},
+      {"rank": 25, "province": "Kahramanmaraş", "plateCode": 46, "index": 32.1, "volunteers": 7450, "projects": 149, "totalHours": 20580, "trend": "↑ +3%"},
+      {"rank": 26, "province": "Sivas", "plateCode": 58, "index": 30.9, "volunteers": 6420, "projects": 128, "totalHours": 17920, "trend": "↑ +2%"},
+      {"rank": 27, "province": "Erzurum", "plateCode": 25, "index": 29.7, "volunteers": 5480, "projects": 109, "totalHours": 15380, "trend": "↑ +4%"},
+      {"rank": 28, "province": "Van", "plateCode": 65, "index": 28.5, "volunteers": 4540, "projects": 90, "totalHours": 12840, "trend": "↑ +6%"},
+      {"rank": 29, "province": "Diyarbakır", "plateCode": 21, "index": 27.3, "volunteers": 3680, "projects": 73, "totalHours": 10420, "trend": "↑ +5%"},
+      {"rank": 30, "province": "Çanakkale", "plateCode": 17, "index": 26.2, "volunteers": 2940, "projects": 58, "totalHours": 8360, "trend": "↑ +3%"},
+      {"rank": 31, "province": "Ordu", "plateCode": 52, "index": 25.1, "volunteers": 2280, "projects": 45, "totalHours": 6520, "trend": "→ 0%"},
+      {"rank": 32, "province": "Edirne", "plateCode": 22, "index": 24.0, "volunteers": 1820, "projects": 36, "totalHours": 5240, "trend": "↑ +2%"},
+      {"rank": 33, "province": "Zonguldak", "plateCode": 67, "index": 22.9, "volunteers": 1480, "projects": 29, "totalHours": 4280, "trend": "↑ +4%"},
+      {"rank": 34, "province": "Elazığ", "plateCode": 23, "index": 21.8, "volunteers": 1240, "projects": 24, "totalHours": 3620, "trend": "↑ +3%"},
+      {"rank": 35, "province": "Kastamonu", "plateCode": 37, "index": 20.8, "volunteers": 980, "projects": 19, "totalHours": 2840, "trend": "→ 0%"},
+      {"rank": 36, "province": "Uşak", "plateCode": 64, "index": 19.8, "volunteers": 820, "projects": 16, "totalHours": 2380, "trend": "↑ +5%"},
+      {"rank": 37, "province": "Aksaray", "plateCode": 68, "index": 18.8, "volunteers": 720, "projects": 14, "totalHours": 2080, "trend": "↑ +2%"},
+      {"rank": 38, "province": "Kütahya", "plateCode": 43, "index": 17.9, "volunteers": 640, "projects": 12, "totalHours": 1860, "trend": "↑ +4%"},
+      {"rank": 39, "province": "Afyonkarahisar", "plateCode": 3, "index": 17.0, "volunteers": 580, "projects": 11, "totalHours": 1680, "trend": "↑ +3%"},
+      {"rank": 40, "province": "Isparta", "plateCode": 32, "index": 16.1, "volunteers": 520, "projects": 10, "totalHours": 1520, "trend": "→ 0%"},
+      {"rank": 41, "province": "Bolu", "plateCode": 14, "index": 15.3, "volunteers": 480, "projects": 9, "totalHours": 1380, "trend": "↑ +2%"},
+      {"rank": 42, "province": "Düzce", "plateCode": 81, "index": 14.5, "volunteers": 440, "projects": 8, "totalHours": 1260, "trend": "↑ +5%"},
+      {"rank": 43, "province": "Çorum", "plateCode": 19, "index": 13.7, "volunteers": 400, "projects": 8, "totalHours": 1160, "trend": "↑ +3%"},
+      {"rank": 44, "province": "Amasya", "plateCode": 5, "index": 12.9, "volunteers": 360, "projects": 7, "totalHours": 1060, "trend": "→ 0%"},
+      {"rank": 45, "province": "Giresun", "plateCode": 28, "index": 12.2, "volunteers": 320, "projects": 6, "totalHours": 960, "trend": "↑ +4%"},
+      {"rank": 46, "province": "Kırklareli", "plateCode": 39, "index": 11.5, "volunteers": 280, "projects": 5, "totalHours": 840, "trend": "↑ +2%"},
+      {"rank": 47, "province": "Rize", "plateCode": 53, "index": 10.8, "volunteers": 240, "projects": 4, "totalHours": 720, "trend": "↑ +6%"},
+      {"rank": 48, "province": "Tokat", "plateCode": 60, "index": 10.2, "volunteers": 200, "projects": 4, "totalHours": 620, "trend": "↑ +3%"},
+      {"rank": 49, "province": "Burdur", "plateCode": 15, "index": 9.6, "volunteers": 180, "projects": 3, "totalHours": 560, "trend": "→ 0%"},
+      {"rank": 50, "province": "Kırşehir", "plateCode": 40, "index": 9.0, "volunteers": 160, "projects": 3, "totalHours": 500, "trend": "↑ +2%"},
+      {"rank": 51, "province": "Bilecik", "plateCode": 11, "index": 8.5, "volunteers": 140, "projects": 2, "totalHours": 440, "trend": "↑ +5%"},
+      {"rank": 52, "province": "Karaman", "plateCode": 70, "index": 8.0, "volunteers": 120, "projects": 2, "totalHours": 380, "trend": "↑ +3%"},
+      {"rank": 53, "province": "Yozgat", "plateCode": 66, "index": 7.5, "volunteers": 100, "projects": 2, "totalHours": 320, "trend": "→ 0%"},
+      {"rank": 54, "province": "Nevşehir", "plateCode": 50, "index": 7.1, "volunteers": 90, "projects": 1, "totalHours": 280, "trend": "↑ +4%"},
+      {"rank": 55, "province": "Artvin", "plateCode": 8, "index": 6.7, "volunteers": 80, "projects": 1, "totalHours": 240, "trend": "↑ +2%"},
+      {"rank": 56, "province": "Mardin", "plateCode": 47, "index": 6.3, "volunteers": 70, "projects": 1, "totalHours": 200, "trend": "↑ +6%"},
+      {"rank": 57, "province": "Niğde", "plateCode": 51, "index": 5.9, "volunteers": 60, "projects": 1, "totalHours": 180, "trend": "↑ +3%"},
+      {"rank": 58, "province": "Kırıkkale", "plateCode": 71, "index": 5.6, "volunteers": 55, "projects": 1, "totalHours": 160, "trend": "→ 0%"},
+      {"rank": 59, "province": "Ağrı", "plateCode": 4, "index": 5.3, "volunteers": 50, "projects": 1, "totalHours": 140, "trend": "↑ +2%"},
+      {"rank": 60, "province": "Sinop", "plateCode": 57, "index": 5.0, "volunteers": 45, "projects": 1, "totalHours": 120, "trend": "↑ +5%"},
+      {"rank": 61, "province": "Bartın", "plateCode": 74, "index": 4.7, "volunteers": 40, "projects": 0, "totalHours": 100, "trend": "↑ +3%"},
+      {"rank": 62, "province": "Kilis", "plateCode": 79, "index": 4.4, "volunteers": 35, "projects": 0, "totalHours": 90, "trend": "→ 0%"},
+      {"rank": 63, "province": "Batman", "plateCode": 72, "index": 4.1, "volunteers": 30, "projects": 0, "totalHours": 80, "trend": "↑ +4%"},
+      {"rank": 64, "province": "Karabük", "plateCode": 78, "index": 3.9, "volunteers": 28, "projects": 0, "totalHours": 70, "trend": "↑ +2%"},
+      {"rank": 65, "province": "Yalova", "plateCode": 77, "index": 3.7, "volunteers": 25, "projects": 0, "totalHours": 60, "trend": "↑ +6%"},
+      {"rank": 66, "province": "Osmaniye", "plateCode": 80, "index": 3.5, "volunteers": 22, "projects": 0, "totalHours": 55, "trend": "↑ +3%"},
+      {"rank": 67, "province": "Çankırı", "plateCode": 18, "index": 3.3, "volunteers": 20, "projects": 0, "totalHours": 50, "trend": "→ 0%"},
+      {"rank": 68, "province": "Erzincan", "plateCode": 24, "index": 3.1, "volunteers": 18, "projects": 0, "totalHours": 45, "trend": "↑ +2%"},
+      {"rank": 69, "province": "Siirt", "plateCode": 56, "index": 2.9, "volunteers": 16, "projects": 0, "totalHours": 40, "trend": "↑ +5%"},
+      {"rank": 70, "province": "Adıyaman", "plateCode": 2, "index": 2.7, "volunteers": 14, "projects": 0, "totalHours": 35, "trend": "↑ +3%"},
+      {"rank": 71, "province": "Tunceli", "plateCode": 62, "index": 2.5, "volunteers": 12, "projects": 0, "totalHours": 30, "trend": "→ 0%"},
+      {"rank": 72, "province": "Gümüşhane", "plateCode": 29, "index": 2.3, "volunteers": 10, "projects": 0, "totalHours": 25, "trend": "↑ +4%"},
+      {"rank": 73, "province": "Muş", "plateCode": 49, "index": 2.2, "volunteers": 9, "projects": 0, "totalHours": 22, "trend": "↑ +2%"},
+      {"rank": 74, "province": "Bitlis", "plateCode": 13, "index": 2.0, "volunteers": 8, "projects": 0, "totalHours": 20, "trend": "↑ +6%"},
+      {"rank": 75, "province": "Şırnak", "plateCode": 73, "index": 1.8, "volunteers": 7, "projects": 0, "totalHours": 18, "trend": "↑ +3%"},
+      {"rank": 76, "province": "Hakkari", "plateCode": 30, "index": 1.7, "volunteers": 6, "projects": 0, "totalHours": 15, "trend": "→ 0%"},
+      {"rank": 77, "province": "Iğdır", "plateCode": 76, "index": 1.5, "volunteers": 5, "projects": 0, "totalHours": 12, "trend": "↑ +2%"},
+      {"rank": 78, "province": "Kars", "plateCode": 36, "index": 1.4, "volunteers": 4, "projects": 0, "totalHours": 10, "trend": "↑ +5%"},
+      {"rank": 79, "province": "Ardahan", "plateCode": 75, "index": 1.2, "volunteers": 3, "projects": 0, "totalHours": 8, "trend": "↑ +3%"},
+      {"rank": 80, "province": "Bayburt", "plateCode": 69, "index": 1.0, "volunteers": 2, "projects": 0, "totalHours": 5, "trend": "→ 0%"},
+      {"rank": 81, "province": "Bingöl", "plateCode": 12, "index": 2.4, "volunteers": 11, "projects": 0, "totalHours": 28, "trend": "↑ +3%"}
+    ]
+  },
+  "insights": {
+    "title": "Veriye Dayalı İçgörüler",
+    "subtitle": "Harita verilerinden çıkarılan temel bulgular",
+    "insights": [
+      {
+        "title": "Marmara'da Yoğunlaşma",
+        "description": "Gönüllülüğün %52'si Marmara bölgesinde (İstanbul, Ankara, Bursa, Kocaeli) yoğunlaşmıştır. Anadolu'da fırsat ve kapasite artışı gerekmektedir.",
+        "icon": "trending-up"
+      },
+      {
+        "title": "Gençler Lider Rol Oynuyor",
+        "description": "25-35 yaş grubunun katılımı tüm gönüllülerinin %48'ini oluşturmaktadır. Sosyal medya ve mikro-görev yapısından faydalanıyor.",
+        "icon": "users-group"
+      },
+      {
+        "title": "Eğitim ve Sağlık Ağırlıklı",
+        "description": "Gönüllülüğün %35'i eğitim, %28'i sağlık alanında odaklanmıştır. Çevre ve sosyal etkinlik alanlarında kapasitesi artırılmalıdır.",
+        "icon": "chart-pie"
+      },
+      {
+        "title": "Kırsal Bölgelerde Artış",
+        "description": "Son 6 ayda kırsal bölgelerde gönüllü katılımı %35 artış göstermektedir. Mobil teknoloji ve WhatsApp entegrasyonu etkili olmuştur.",
+        "icon": "map-location"
+      }
+    ]
+  },
+  "regionalAnalysis": {
+    "title": "Bölgesel Analiz",
+    "regions": [
+      {
+        "name": "Marmara Bölgesi",
+        "provinces": 5,
+        "volunteers": 403670,
+        "avgIndex": 81.6,
+        "topChallenge": "Hızlı büyüme, kapasite ve eğitim talep ediyor"
+      },
+      {
+        "name": "İç Anadolu",
+        "provinces": 8,
+        "volunteers": 145280,
+        "avgIndex": 48.2,
+        "topChallenge": "Kurumsal STK ağının güçlendirilmesi gerekli"
+      },
+      {
+        "name": "Akdeniz",
+        "provinces": 6,
+        "volunteers": 128340,
+        "avgIndex": 54.1,
+        "topChallenge": "Mevsimsellik nedeniyle stabil proje yapısı gerekli"
+      },
+      {
+        "name": "Ege Bölgesi",
+        "provinces": 7,
+        "volunteers": 156240,
+        "avgIndex": 62.3,
+        "topChallenge": "Tarım sektörüne daha fazla gönüllü katılımı"
+      },
+      {
+        "name": "Karadeniz",
+        "provinces": 7,
+        "volunteers": 89450,
+        "avgIndex": 38.7,
+        "topChallenge": "Dijital altyapı ve internet erişiminin iyileştirilmesi"
+      },
+      {
+        "name": "Doğu Anadolu",
+        "provinces": 11,
+        "volunteers": 52680,
+        "avgIndex": 28.4,
+        "topChallenge": "STK ağı ve özel şehir programları gerekli"
+      },
+      {
+        "name": "Güneydoğu Anadolu",
+        "provinces": 9,
+        "volunteers": 61350,
+        "avgIndex": 31.9,
+        "topChallenge": "Güvenlik ve istikrarlı program yapısı"
+      }
+    ]
+  },
+  "futureExpansion": {
+    "title": "Gelecek Hedefler",
+    "description": "Harita, aşağıdaki doğrultuda genişletilecektir:",
+    "goals": [
+      "İl düzeyinden bölçe ve muhtarlık düzeyine ince daneleme",
+      "Sektör bazında (eğitim, sağlık, çevre, teknoloji) heatmap'ler",
+      "Mevsimsel trendler ve öngörü modelleri",
+      "Ekonomik etki haritası (bölge bazında gönüllülük ekonomik değeri)",
+      "Uluslararası karşılaştırma (benzer ülkeler ile kıyaslama)"
+    ]
+  }
+}

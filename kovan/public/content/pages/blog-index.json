@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Blog",
+  "pageDescription": "Gönüllülük araştırmaları, hikayeleri ve haberler",
+  "hero": {
+    "title": "Gönüllülük Bloğu",
+    "subtitle": "Araştırma, ilham ve gerçek dünya hikayeleri"
+  },
+  "posts": [
+    {
+      "id": "post-001",
+      "title": "Mikro-Gönüllülük: Gençlerin Sosyal Etki Yolculuğuna Başlaması",
+      "excerpt": "Araştırma gösteriyor ki, 25-35 yaş grubunun gönüllülüğe katılımını 3 kat artırmak mümkün. Mikro-gönüllülük, bu dönüşümün anahtarı.",
+      "author": "Dr. Burak Çetin",
+      "authorBio": "Sosyolog, davranış bilimi uzmanı",
+      "authorImage": "/images/team/burak-cetin.jpg",
+      "date": "2024-11-28",
+      "readingTime": 8,
+      "category": "Araştırma",
+      "image": "/images/blog/micro-volunteering.jpg",
+      "featured": true
+    },
+    {
+      "id": "post-002",
+      "title": "Gönüllü Profili: Selin'in Hikayeleri - Teknoloji İçin Yürek",
+      "excerpt": "Yazılım mühendisi Selin Aydoğan, nasıl 285 saatini gönüllülüğe ayırdı ve 18 projeyi tamamladı? Ona sorduk.",
+      "author": "Zeynep Akçay",
+      "authorBio": "İçerik ve İletişim Müdürü",
+      "authorImage": "/images/team/zeynep-akcay.jpg",
+      "date": "2024-11-25",
+      "readingTime": 6,
+      "category": "Gönüllü Hikayesi",
+      "image": "/images/blog/selin-story.jpg",
+      "featured": false
+    },
+    {
+      "id": "post-003",
+      "title": "Etki Ölçümleme: Gönüllülüğün Ekonomik Değeri Türkiye'de",
+      "excerpt": "Platform tarafından toparlanan ilk veriler: Gönüllülük, Türkiye'nin GSYİH'nin yaklaşık %0,8'ine eşdeğer ekonomik değer üretmektedir.",
+      "author": "Prof. Dr. Ahmet Yılmaz",
+      "authorBio": "Proje Müdürü, Sosyal Etki Araştırmaları",
+      "authorImage": "/images/team/ahmet-yilmaz.jpg",
+      "date": "2024-11-20",
+      "readingTime": 12,
+      "category": "Araştırma",
+      "image": "/images/blog/economic-impact.jpg",
+      "featured": true
+    },
+    {
+      "id": "post-004",
+      "title": "Üçüncü Dönem: Platform Tamamlanıyor - Yol Haritası ve Beklentiler",
+      "excerpt": "Türkiye Dijital Gönüllülük Dönüşüm Projesi'nin ikinci fazı başlamış. Neler geliyor?",
+      "author": "Yasemin Şener",
+      "authorBio": "Teknik Müdür, Yazılım Mimarı",
+      "authorImage": "/images/team/yasemin-sener.jpg",
+      "date": "2024-11-15",
+      "readingTime": 7,
+      "category": "Platform Güncellemesi",
+      "image": "/images/blog/roadmap.jpg",
+      "featured": false
+    }
+  ]
+}

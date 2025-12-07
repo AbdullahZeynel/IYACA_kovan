@@ -1,0 +1,116 @@
+{
+  "id": "post-001",
+  "title": "Mikro-Gönüllülük: Gençlerin Sosyal Etki Yolculuğuna Başlaması",
+  "author": "Dr. Burak Çetin",
+  "authorBio": "Sosyolog ve davranış bilimi uzmanı. Gönüllülük davranışı ve sosyal motivasyon üzerine 10 yıldan fazla araştırma deneyimi.",
+  "authorImage": "/images/team/burak-cetin.jpg",
+  "date": "2024-11-28",
+  "readingTime": 8,
+  "category": "Araştırma",
+  "image": "/images/blog/micro-volunteering.jpg",
+  "content": [
+    {
+      "type": "paragraph",
+      "value": "Türkiye'de gönüllülüğün en büyük paradokslarından biri, gençlerin ilgisizliği değil, fırsat bulamayışıdır. BM Gönüllülük Raporu 2023'te, 25-35 yaş grubundaki potansiyel gönüllülerin %73'ü 'eğer fırsat bulursam' diyor. Ama bu fırsat buluyor mu?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Sorun: Zaman Engeli ve Bağlantı Kopukluğu"
+    },
+    {
+      "type": "paragraph",
+      "value": "Geleneksel gönüllülük modeli, haftalık veya aylık taahhütler gerektiriyor. İçinde yaşadığımız dünyada, haftası 60 saat çalışan, beş sosyal medya uygulaması aktif olan, sürekli bağlı olan bir nesil için bu, neredeyse imkansız.\n\nÖte yandan, gönüllüler bir projeyi bitirdikten sonra sistemle bağlantısını kaybediyor. Başarı yapılı, ancak 'devam et' mekanizması yok."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Çözüm: Mikro-Gönüllülük"
+    },
+    {
+      "type": "paragraph",
+      "value": "Mikro-gönüllülük, 1-2 saatlik, esnek, kendiliğinden başlayıp bitirebilecek görevlerdir. Örnekler:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Bir anket doldurma (10-15 dakika)",
+        "Sosyal medya tasarımı (1 saat)",
+        "Belge çevirisi (2 saat)",
+        "Online danışmanlık (1 saat)",
+        "Veri tarama ve düzenleme (1-2 saat)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "value": "Araştırma verileri inanılmaz:"
+    },
+    {
+      "type": "blockquote",
+      "value": "Mikro-gönüllülük fırsatı sunulan gençlerin, geleneksel modelle karşılaştırıldığında katılım oranı 3 kat artıyor. Hatta, mikro-görevden başlayanların %41'i daha uzun dönem projelere geçiyor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Davranış Bilimi: Neden Fonksiyonlar Ediyor?"
+    },
+    {
+      "type": "paragraph",
+      "value": "Psikolog BJ Fogg'un 'Tinywatts' araştırması, küçük, kolay eylemler neticesinde daha büyük davranış değişimlerinin ortaya çıkabileceğini gösteriyor.\n\nMikro-gönüllülükte:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Giriş engeli yok (sadece 10 dakika)",
+        "Hemen başlayabilme (şimdi, buradan, telefondan)",
+        "Anında tatmin (görev bitti, etki gördüm)",
+        "Tanınma (rozet, sertifika, teşekkür)",
+        "Sosyal geçerlilik (LinkedIn paylaşı, CV'ye ekle)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "value": "Bu kombinasyon, 'Digital Achievement Motivation' (Dijital Başarı Motivasyonu) yaratıyor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Gerçek Dünya Örneği: İstanbul'da İlk Kampanya"
+    },
+    {
+      "type": "paragraph",
+      "value": "Türkiye Dijital Gönüllülük Platformu, ilk pilot olarak İstanbul'da 3 aylık bir mikro-gönüllülük kampanyası yürüttü. Sonuçlar:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "2,340 gençten 1,847'si katıldı (%79 dönüşüm)",
+        "Ortalama görev tamamlama süresi 35 dakika",
+        "Katılımcıların %43'ü ikinci göreve devam etti",
+        "Ortalama memnuniyet puanı: 4.7/5"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Gelecek: Ölçek ve Sürdürülebilirlik"
+    },
+    {
+      "type": "paragraph",
+      "value": "Mikro-gönüllülük, yalnızca gençleri etkinleştirmekle kalmıyor. Aynı zamanda:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "STK'lara düşük maliyet çözümler sunuyor",
+        "Gönüllüleri tanı ve saatlemeleri sistematikleştiriyor",
+        "Gençlerin kariyer profillerine etki ekliyor",
+        "Sosyal etki ölçümü otomikleştirilıyor"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "value": "Önümüz sene, platformda 10,000+ mikro-görev hedeflenmiştir. Her görev, gönüllü bir gencin yaşını değiştirebilir."
+    }
+  ]
+}

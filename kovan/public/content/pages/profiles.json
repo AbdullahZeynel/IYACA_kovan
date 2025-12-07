@@ -1,0 +1,232 @@
+{
+  "pageTitle": "Gönüllü Profilleri",
+  "pageDescription": "Platform topluluğundan ilham verici gönüllülerin dijital profilleri",
+  "hero": {
+    "title": "Gönüllü Profilleri",
+    "subtitle": "Topluluğunun hayal kuran, yapan ve etkisi ölçülen üyelerini tanıyın"
+  },
+  "featuredVolunteer": {
+    "id": "volunteer-001",
+    "name": "Ayşe Çelik",
+    "city": "İstanbul",
+    "avatar": "/images/volunteers/ayse-celik.jpg",
+    "title": "Bu Ayın Gönüllüsü",
+    "totalHours": 285,
+    "projectsCompleted": 18,
+    "currentLevel": 4,
+    "levelTitle": "Uzman Gönüllü",
+    "badges": [
+      {
+        "name": "Lider",
+        "description": "15+ proje tamamladı"
+      },
+      {
+        "name": "Sosyal Ağ Kurucusu",
+        "description": "5+ gönüllüyü platformda etkinleştirdi"
+      },
+      {
+        "name": "Etki Elçisi",
+        "description": "Katkılarından 12 kişi etkilendi"
+      }
+    ],
+    "primaryInterests": ["Eğitim", "Gençlik Gelişimi", "Teknoloji"],
+    "latestContribution": {
+      "project": "Kodlamayı Herkesin Öğrenebilmesi Projesi",
+      "date": "2024-11-28",
+      "hours": 12
+    },
+    "quote": "İlk kez gönüllülük yaptığımda, sadece vakit geçireceğimi düşündüm. Ancak bu platform sayesinde, katkılarımın ne kadar önemli olduğunu gördüm. Artık tüm hayatımı yönetiyorum ve başkalarını da teşvik ediyorum. Gönüllülük sadece bir etkinlik değil, bir yaşam şekli.",
+    "bio": "Yazılım mühendisi, teknoloji öğretmeni, iki çocuk annesi. 3 yıldır gönüllülük alanında aktif olarak çalışıyor."
+  },
+  "filters": {
+    "interests": [
+      { "id": "education", "label": "Eğitim" },
+      { "id": "health", "label": "Sağlık" },
+      { "id": "environment", "label": "Çevre" },
+      { "id": "disaster-relief", "label": "Afet Yardımı" },
+      { "id": "technology", "label": "Teknoloji" },
+      { "id": "social-care", "label": "Sosyal Bakım" },
+      { "id": "arts", "label": "Sanat & Kültür" }
+    ],
+    "contributionType": [
+      { "id": "micro", "label": "Mikro-Gönüllülük" },
+      { "id": "long-term", "label": "Uzun Dönem" },
+      { "id": "hybrid", "label": "Karma" }
+    ],
+    "province": [
+      { "id": "istanbul", "label": "İstanbul" },
+      { "id": "ankara", "label": "Ankara" },
+      { "id": "izmir", "label": "İzmir" },
+      { "id": "other", "label": "Diğer İller" }
+    ]
+  },
+  "profiles": [
+    {
+      "id": "volunteer-002",
+      "name": "Mehmet Yılmaz",
+      "avatar": "/images/volunteers/mehmet-yilmaz.jpg",
+      "city": "Ankara",
+      "totalHours": 156,
+      "projectsCompleted": 9,
+      "badges": [
+        {
+          "icon": "star",
+          "name": "Ustalaşan",
+          "description": "5+ proje tamamladı"
+        }
+      ],
+      "interests": ["Afet Yardımı", "Sosyal Bakım"],
+      "latestContribution": "İdlib Halkına Dik Kalp Projesi",
+      "quote": "Gönüllülük için zamanınız yok mu? Başlayın! Haftada sadece iki saat ile milyonları etkileyebilirsiniz.",
+      "level": 3,
+      "levelTitle": "Deneyimli Gönüllü"
+    },
+    {
+      "id": "volunteer-003",
+      "name": "Zeynep Kara",
+      "avatar": "/images/volunteers/zeynep-kara.jpg",
+      "city": "İzmir",
+      "totalHours": 94,
+      "projectsCompleted": 6,
+      "badges": [
+        {
+          "icon": "rocket",
+          "name": "Başlangıç",
+          "description": "İlk projeyi tamamladı"
+        }
+      ],
+      "interests": ["Eğitim", "Teknoloji"],
+      "latestContribution": "Dijital Okuryazarlık Eğitimi",
+      "quote": "Bu platform, gönüllülüğü benim için gerçekten kolay hale getirdi. Başvurmak 2 dakika, proje tamamlamak bile daha kısa!",
+      "level": 2,
+      "levelTitle": "Aktif Gönüllü"
+    },
+    {
+      "id": "volunteer-004",
+      "name": "Ahmet Demir",
+      "avatar": "/images/volunteers/ahmet-demir.jpg",
+      "city": "Bursa",
+      "totalHours": 342,
+      "projectsCompleted": 24,
+      "badges": [
+        {
+          "icon": "crown",
+          "name": "Lider",
+          "description": "15+ proje tamamladı"
+        },
+        {
+          "icon": "people",
+          "name": "Sosyal Ağ Kurucusu",
+          "description": "5+ gönüllüyü referans etti"
+        }
+      ],
+      "interests": ["Çevre", "Sosyal Bakım", "Gençlik Gelişimi"],
+      "latestContribution": "Yeşil Bursa - Orman Dikim Kampanyası",
+      "quote": "Gönüllülük benim hayatımı değiştirdi. Daha amaçlı bir insan olmak, gerçek bir tatmin veriyor.",
+      "level": 5,
+      "levelTitle": "Gönüllülük Lider"
+    },
+    {
+      "id": "volunteer-005",
+      "name": "Selin Aydoğan",
+      "avatar": "/images/volunteers/selin-aydogdan.jpg",
+      "city": "İstanbul",
+      "totalHours": 87,
+      "projectsCompleted": 12,
+      "badges": [
+        {
+          "icon": "target",
+          "name": "Uzman",
+          "description": "Bir alanda 10+ proje tamamladı"
+        }
+      ],
+      "interests": ["Sağlık", "Sosyal Bakım"],
+      "latestContribution": "Yaşlı Bakımı Danışmanlığı",
+      "quote": "Sağlık alanında uzmanım ama hiçbir zaman görecek zamanım yoktu. Bu platform ile, saatimi veya köklü proje bulmak çok kolay. Tavsiye ederim.",
+      "level": 4,
+      "levelTitle": "Uzman Gönüllü"
+    },
+    {
+      "id": "volunteer-006",
+      "name": "Tuğba Sözen",
+      "avatar": "/images/volunteers/tugba-sozen.jpg",
+      "city": "Ankara",
+      "totalHours": 45,
+      "projectsCompleted": 3,
+      "badges": [],
+      "interests": ["Eğitim", "Çevre"],
+      "latestContribution": "İlkokul Öğrencilerine Kod Eğitimi",
+      "quote": "Yeni başladım ama çok heyecanlıyım. Her küçük adım, büyük bir fark yaratabilir!",
+      "level": 1,
+      "levelTitle": "Gönüllü Başlangıç"
+    },
+    {
+      "id": "volunteer-007",
+      "name": "Kadir Alptekin",
+      "avatar": "/images/volunteers/kadir-alptekin.jpg",
+      "city": "Mersin",
+      "totalHours": 128,
+      "projectsCompleted": 8,
+      "badges": [
+        {
+          "icon": "checkmark",
+          "name": "Ustalaşan",
+          "description": "5+ proje tamamladı"
+        }
+      ],
+      "interests": ["Afet Yardımı", "Sosyal Bakım"],
+      "latestContribution": "Çiftlik Hayvanlarını Koruma Projesi",
+      "quote": "Tarım bölgesindeki çiftçiler için yardımcı olabiliyorum. Şehirde yaşayan insanlar bilemezler, ama gönüllülük her yerde gerekli!",
+      "level": 3,
+      "levelTitle": "Deneyimli Gönüllü"
+    },
+    {
+      "id": "volunteer-008",
+      "name": "Naz Karaman",
+      "avatar": "/images/volunteers/naz-karaman.jpg",
+      "city": "İzmir",
+      "totalHours": 203,
+      "projectsCompleted": 14,
+      "badges": [
+        {
+          "icon": "star",
+          "name": "Lider",
+          "description": "15+ proje tamamladı"
+        }
+      ],
+      "interests": ["Sanat & Kültür", "Gençlik Gelişimi"],
+      "latestContribution": "Gençler İçin Sahne Sanatları Eğitimi",
+      "quote": "Sanat gönüllülüğü, hem yaratıcılık hem de sosyal sorumluluk hissi veriyor. Özellikle gençleri görünce, tüm yorgunluk geçiyor.",
+      "level": 4,
+      "levelTitle": "Uzman Gönüllü"
+    },
+    {
+      "id": "volunteer-009",
+      "name": "Fatih Yaşar",
+      "avatar": "/images/volunteers/fatih-yasar.jpg",
+      "city": "Gaziantep",
+      "totalHours": 62,
+      "projectsCompleted": 5,
+      "badges": [
+        {
+          "icon": "rocket",
+          "name": "Başlangıç",
+          "description": "İlk projeyi tamamladı"
+        }
+      ],
+      "interests": ["Teknoloji", "Eğitim"],
+      "latestContribution": "Web Tasarımı Mikro-Eğitimi",
+      "quote": "Tek saatim var ama katkıda bulunmak istiyorum. Mikro-görevler benim için ideal!",
+      "level": 2,
+      "levelTitle": "Aktif Gönüllü"
+    }
+  ],
+  "cta": {
+    "title": "Siz de Topluluğa Katılın",
+    "description": "Başlayın, etki yaratın ve gönüllülük yolculuğunuza başlayın",
+    "primaryButton": "Gönüllü Ol",
+    "primaryLink": "/register",
+    "secondaryButton": "Etkinlikleri Gözat",
+    "secondaryLink": "/events"
+  }
+}

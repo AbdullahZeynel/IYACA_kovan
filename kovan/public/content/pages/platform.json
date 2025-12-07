@@ -1,0 +1,178 @@
+{
+  "pageTitle": "Platform Özellikleri",
+  "pageDescription": "Gönüllülüğü dönüştüren dijital platform",
+  "hero": {
+    "title": "Gönüllülük Platformu: Nasıl Çalışır?",
+    "subtitle": "Gönüllü, proje ve etkileri bir araya getiren dört adımlı dönüşüm"
+  },
+  "overview": {
+    "title": "Dört Adımlı İş Akışı",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Kaydol veya Proje Oluştur",
+        "description": "Gönüllüler profilini oluşturuyor, ilgi alanlarını ve becerilerini belirtiyor. Kurumlar ise proje ilanı yayınlıyor.",
+        "icon": "user-plus"
+      },
+      {
+        "step": 2,
+        "title": "Keşfet ve Eşleş",
+        "description": "Platform, beceri ve ilgi temelli bir eşleştirme motoru ile gönüllüleri projelere bağlıyor.",
+        "icon": "search"
+      },
+      {
+        "step": 3,
+        "title": "Katıl ve Katkıda Bulun",
+        "description": "Gönüllüler projede aktif rol oynuyor. Platform, ilerleme, saat ve çıktıları takip ediyor.",
+        "icon": "hands"
+      },
+      {
+        "step": 4,
+        "title": "İlerlemeyi Takip Et ve Etkini Gör",
+        "description": "Gönüllüler, dijital profil, rozetler ve sertifikalar alıyor. STK'lar ve kurumlar etki raporu görüyor.",
+        "icon": "chart-line"
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": "volunteer-profile",
+      "title": "Gönüllü Profili & Dijital Yolculuk",
+      "subtitle": "Katkılarınızı Görselleştirin",
+      "description": "Her gönüllünün dijital profili, katkıları, beceriler, rozetler ve ilerleme çubuğunu gösterir.\n\n**Profil İçeriği:**\n- Toplam katkı saati\n- Tamamlanan proje sayısı\n- Kazanılan rozetler (Başlangıç, Uzman, Lider vb.)\n- Seviyelendirme (1-10 seviye)\n- Sosyal ağ (diğer gönüllülerle bağlantı)\n- Reflektif notlar ve öğrenmeler\n\n**Fayda:**\nGönüllüler, katkılarının tanındığını ve ölçüldüğünü görüyor. Bu, motivasyon ve kalıcılığı artırıyor.",
+      "icon": "user-check"
+    },
+    {
+      "id": "micro-volunteering",
+      "title": "Mikro-Gönüllülük Duyuru Sistemi",
+      "subtitle": "1-2 Saatte Etki Yaratan Görevler",
+      "description": "Platform, hızlı ve esnek gönüllülük fırsatları sunuyor:\n\n**Mikro-Görev Türleri:**\n- Online anketler ve veri tarama (30 dakika)\n- Belgelerin çevirisi (1-2 saat)\n- Sosyal medya içeriği oluşturma (1 saat)\n- Grafik tasarım ve editlama (2 saat)\n- Danışmanlık ve mentörlük (1-2 saat)\n\n**Başvuru Süreci:**\nGönüllü, 'Hemen Katıl' butonuna tıklıyor. Onaylama otomatik, başlama hemen.\n\n**Fayda:**\nGençler, meşgul profesyoneller ve düşük mobilite gönüllüleri katılabilir.",
+      "icon": "lightning"
+    },
+    {
+      "id": "impact-reporting",
+      "title": "Etki Raporlama ve Sertifikasyon",
+      "subtitle": "Dijital Kimlik Şekillendirme",
+      "description": "Gönüllülerin katkıları otomatik olarak ölçülüyor ve sertifikalara dönüştürülüyor.\n\n**Otomatik Metrikler:**\n- Toplam gönüllülük saati\n- Projelere yapılan katkı sayısı\n- Sosyal etki puanı (topluluğun görüşü)\n- İstihdam yeterlilikleri (kazanılan beceriler)\n\n**Dijital Sertifikat:**\nGönüllüler, 'Gönüllülük Sertifikası' indirebilir ve sosyal ağlarda paylaşabilir. İşverenler, LinkedIn ve başka platformlar tarafından doğrulanabilir.\n\n**Fayda:**\nGönüllülük deneyimi, kariyer gelişim ve istihdam potansiyeline katkı sunuyor.",
+      "icon": "award"
+    },
+    {
+      "id": "org-dashboard",
+      "title": "Kurum Paneli",
+      "subtitle": "STK'lar ve Kamu Kurumları İçin",
+      "description": "Kurumlar, gönüllüleri yönetmek, projeleri koordine etmek ve etki ölçmek için merkezi bir platform alıyor.\n\n**Panel Özellikleri:**\n- Gönüllü ilanı oluşturma ve yayınlama\n- Başvuruları kabul/reddetme\n- Proje ilerleme takibi\n- Gönüllü saati raporlama\n- Etki raporları oluşturma\n- Bütçe ve kaynak planlama\n- Ekip yönetimi\n\n**Veri Dışa Aktarma:**\nKurumlar, raporları CSV, PDF ve Excel formatında dışa aktarabiliyor.\n\n**Fayda:**\nKurumlar, gönüllü yönetim verimliliğini %40 artırıyor.",
+      "icon": "layout-dashboard"
+    },
+    {
+      "id": "security",
+      "title": "Güvenlik ve Veri Gizliliği",
+      "subtitle": "Kullanıcı Verilerini Koruyor",
+      "description": "Platform, kamu hizmetleri standardında veri koruma sağlıyor.\n\n**Güvenlik Önlemleri:**\n- End-to-end veri şifreleme (AES-256)\n- Kişisel veri minimizasyonu\n- KVKK ve GDPR uyumluluğu\n- Düzenli güvenlik denetimleri (penetration testing)\n- Veri yedekleme ve felaket kurtarma\n- Erişim kontrolü ve rol tabanlı yetkilendirme\n\n**Kullanıcı Hakları:**\n- Verinin indirilmesi ve taşınabilirliği\n- Silme hakkı\n- İtiraz hakkı\n- Şeffaflık raporları\n\n**Fayda:**\nGönüllüler ve kurumlar, verilerinin güvenli ve etik olarak işlendiğini biliyorlar.",
+      "icon": "lock"
+    },
+    {
+      "id": "ai-matching",
+      "title": "Yapay Zeka Eşleştirme Motoru",
+      "subtitle": "Doğru Gönüllü, Doğru Proje",
+      "description": "Platform, machine learning kullanarak gönüllüleri en uygun projelere bağlıyor.\n\n**Eşleştirme Kriterleri:**\n- Beceri profili (gönüllünün yetenekleri ve projeden talep edilen yetenekler)\n- Coğrafi konum (uzaktan vs. yerel proje)\n- Zaman taşıyıcılığı (gönüllünün müsaitlik vs. projenin zaman çizelgesi)\n- İlgi hizalaması (sosyal, çevresel, eğitim vb. ilgi alanları)\n- Başarı öyküsü (gönüllünün geçmiş projelerde başarısı)\n\n**Sürekli Öğrenme:**\nSistem, gönüllü- proje çiftlerinin başarısından öğrenir ve eşleştirme algoritmasını iyileştirir.\n\n**Fayda:**\nProje başarısı oranı %85+ çıkıyor ve attrition %50 azalıyor.",
+      "icon": "sparkles"
+    }
+  ],
+  "gamification": {
+    "title": "Oyunlaştırma: Rozetler ve Seviyelendirme",
+    "subtitle": "Digital Achievement Motivation",
+    "description": "Platform, davranış bilimi temelinde yapılandırılmış oyunlaştırma elemanları kullanıyor.",
+    "badges": [
+      {
+        "name": "Başlangıç",
+        "description": "İlk projenizi tamamladı",
+        "tier": 1
+      },
+      {
+        "name": "Ustalaşan",
+        "description": "5 proje tamamladı",
+        "tier": 2
+      },
+      {
+        "name": "Lider",
+        "description": "15 proje tamamladı ve 50+ saat katkı",
+        "tier": 3
+      },
+      {
+        "name": "Uzman",
+        "description": "Aynı alanda 10+ proje tamamladı",
+        "tier": 2
+      },
+      {
+        "name": "Sosyal Ağ Kurucusu",
+        "description": "5+ gönüllüyü referans ettiğinde ve onlar aktif ise",
+        "tier": 3
+      },
+      {
+        "name": "Etki Elçisi",
+        "description": "Katkılarından 5+ kişi etkilendi ve katıldı",
+        "tier": 3
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "title": "Gönüllü Başlangıç",
+        "xpRequired": 0,
+        "description": "İlk adımınızı attınız"
+      },
+      {
+        "level": 2,
+        "title": "Aktif Gönüllü",
+        "xpRequired": 100,
+        "description": "10+ saat katkı"
+      },
+      {
+        "level": 3,
+        "title": "Deneyimli Gönüllü",
+        "xpRequired": 300,
+        "description": "25+ saat katkı"
+      },
+      {
+        "level": 4,
+        "title": "Uzman Gönüllü",
+        "xpRequired": 600,
+        "description": "50+ saat katkı"
+      },
+      {
+        "level": 5,
+        "title": "Gönüllülük Lider",
+        "xpRequired": 1000,
+        "description": "100+ saat katkı, kurumsal liderlik"
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Erişilebilirlik ve Kapsayıcılık",
+    "subtitle": "Herkes için Tasarlanmış",
+    "features": [
+      "WCAG 2.1 Level AA uyumluluğu",
+      "Ekran okuyucu desteği",
+      "Klavye navigasyonu",
+      "Yüksek kontrast modu",
+      "Metin boyutu ayarlama",
+      "Mobil optimizasyon (%95+ veri tarafından erişilebilir)",
+      "WhatsApp entegrasyonu (SMS gönderilen yönerge)",
+      "Telefon desteği (1800-GÖNÜL satır)"
+    ]
+  },
+  "technicalArch": {
+    "title": "Teknik Mimari (Kısa Özet)",
+    "description": "Platform, bulut tabanında, açık kaynak teknolojileri kullanarak inşa edilmiştir.",
+    "stack": [
+      "Frontend: React 18+ / TypeScript",
+      "Backend: Node.js / Express (API), Python (veri bilimi)",
+      "Database: PostgreSQL (relasyonel), Elasticsearch (arama)",
+      "Cache: Redis",
+      "AI/ML: TensorFlow / Scikit-learn (eşleştirme ve tahmin)",
+      "Cloud: AWS / Azure (yüksek kullanılabilirlik)",
+      "CI/CD: GitHub Actions",
+      "Monitoring: ELK Stack"
+    ]
+  }
+}

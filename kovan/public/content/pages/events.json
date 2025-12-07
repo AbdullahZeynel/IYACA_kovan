@@ -1,0 +1,191 @@
+{
+  "pageTitle": "Etkinlikler & Duyurular",
+  "pageDescription": "Etkin gönüllülük fırsatlarını keşfedin",
+  "hero": {
+    "title": "Etkinlikler & Mikro-Gönüllülük Duyuruları",
+    "subtitle": "Türkiye'de çalışmakta olan projeler ve yapabilecekleriniz"
+  },
+  "activeEventsCount": 245,
+  "activeVolunteersThisMonth": 18420,
+  "filters": {
+    "type": [
+      { "id": "micro", "label": "Mikro-Gönüllülük", "icon": "lightning" },
+      { "id": "long-term", "label": "Uzun Dönem Proje", "icon": "calendar" },
+      { "id": "event", "label": "Etkinlik", "icon": "users-group" },
+      { "id": "workshop", "label": "Eğitim/Workshop", "icon": "graduation-cap" }
+    ],
+    "category": [
+      { "id": "education", "label": "Eğitim" },
+      { "id": "health", "label": "Sağlık" },
+      { "id": "environment", "label": "Çevre" },
+      { "id": "disaster", "label": "Afet Yardımı" },
+      { "id": "tech", "label": "Teknoloji" },
+      { "id": "social", "label": "Sosyal Bakım" }
+    ],
+    "region": [
+      { "id": "national", "label": "Ulusal (Çevrimiçi)" },
+      { "id": "istanbul", "label": "İstanbul" },
+      { "id": "ankara", "label": "Ankara" },
+      { "id": "izmir", "label": "İzmir" },
+      { "id": "other", "label": "Diğer" }
+    ]
+  },
+  "activeEvents": [
+    {
+      "id": "event-001",
+      "title": "Dijital Okuryazarlık Anketinin Doldurulması",
+      "type": "micro",
+      "category": "education",
+      "description": "Türkiye'de dijital okuryazarlık düzeyini ölçen 10 dakikalık bir anket. Cevaplarınız, politika yapıcılara veri sağlayacaktır.",
+      "organization": "İTÜ Sosyal Etki Merkezi",
+      "organizationLogo": "/images/partners/itu-logo.svg",
+      "location": "Çevrimiçi",
+      "startDate": "2024-12-01",
+      "endDate": "2024-12-20",
+      "estimatedTime": "10 dakika",
+      "participants": 2340,
+      "spotsAvailable": 1000,
+      "difficulty": "Kolay",
+      "rewards": ["Katılım Rozetı", "Sertifika"],
+      "ctaButton": "Hemen Katıl",
+      "registrationLink": "/events/event-001/register"
+    },
+    {
+      "id": "event-002",
+      "title": "İstanbul Caddelerini Temizleyelim - Temizlik Kampanyası",
+      "type": "event",
+      "category": "environment",
+      "description": "İstanbul'un belirli caddelerini temizlemek için bir sabah etkinliği. Sınıf, temizlik malzemeleri ve rehberlik sağlanmaktadır.",
+      "organization": "İstanbul Belediyesi & Yeşil Gönüllüler STK",
+      "organizationLogo": "/images/partners/istanbul-municipality.svg",
+      "location": "Taksim - İstiklal Caddesi",
+      "startDate": "2024-12-08",
+      "endDate": "2024-12-08",
+      "estimatedTime": "3 saat",
+      "participants": 156,
+      "spotsAvailable": 150,
+      "difficulty": "Orta",
+      "rewards": ["Fiziksel Çalışma Rozetı", "Sertifika", "Öğle Yemeği"],
+      "ctaButton": "Katılmak İçin Kaydol",
+      "registrationLink": "/events/event-002/register"
+    },
+    {
+      "id": "event-003",
+      "title": "İlkokul Öğrencilerine Kod Yazmanın Temelleri Eğitimi",
+      "type": "workshop",
+      "category": "education",
+      "description": "Ankara'daki iki ilkokulda, 3-5. sınıf öğrencilerine Scratch ile oyunla kodlama öğretme. Oyun ve eğitim araçları sağlanacaktır.",
+      "organization": "Kodlamayı Herkesin Öğrenebilmesi Projesi",
+      "organizationLogo": "/images/partners/coding-for-all.svg",
+      "location": "Ankara - İncesu İlkokulu",
+      "startDate": "2024-12-10",
+      "endDate": "2024-12-15",
+      "estimatedTime": "5 saat (2 gün x 2.5 saat)",
+      "participants": 12,
+      "spotsAvailable": 8,
+      "difficulty": "Orta",
+      "requirements": ["Yazılım geçmişi gerekmez", "İletişim becerisi önemli"],
+      "rewards": ["Eğitmen Rozetı", "Sertifika", "Öğrenci Teşekkürü"],
+      "ctaButton": "Hemen Başvur",
+      "registrationLink": "/events/event-003/register"
+    },
+    {
+      "id": "event-004",
+      "title": "Yurt Dışında Yaşayan Türkler İçin Türkçe Çeviri Projesi",
+      "type": "micro",
+      "category": "tech",
+      "description": "Yazılım uygulamaları ve web sitelerinin Türkçeye çevirisi. Uzaktan, kendi hızınızda yapabileceğiniz görevler.",
+      "organization": "Diaspora Teknoloji Gönüllüleri",
+      "organizationLogo": "/images/partners/diaspora-tech.svg",
+      "location": "Çevrimiçi (Uzaktan)",
+      "startDate": "2024-11-25",
+      "endDate": "2024-12-31",
+      "estimatedTime": "1-4 saat (Esnektir)",
+      "participants": 847,
+      "spotsAvailable": 500,
+      "difficulty": "Kolay",
+      "requirements": ["Akıcı İngilizce ve Türkçe"],
+      "rewards": ["Çevirmen Rozetı", "Sertifika"],
+      "ctaButton": "Görevleri Gözle",
+      "registrationLink": "/events/event-004/register"
+    },
+    {
+      "id": "event-005",
+      "title": "Yaşlı Bakım Evleri İçin Arkadaşlık Programı",
+      "type": "long-term",
+      "category": "social",
+      "description": "Her hafta 2 saat, yaşlı bakım evlerini ziyaret ederek yaşlılarla vakit geçirme. Sosyal yalıtlığa karşı mücadele.",
+      "organization": "Yardımcı Elleri Yaşlı Bakım STK",
+      "organizationLogo": "/images/partners/helping-hands.svg",
+      "location": "İzmir - Alsancak Yaşlı Bakım Evi",
+      "startDate": "2024-12-05",
+      "endDate": "2025-03-31",
+      "estimatedTime": "2 saat/hafta (12 hafta)",
+      "participants": 28,
+      "spotsAvailable": 12,
+      "difficulty": "Kolay",
+      "requirements": ["Anlayış, sabır ve empatik iletişim"],
+      "rewards": ["Sosyal Bakım Uzmanı Rozetı", "Sertifika", "Yaşlıların Teşekkürü"],
+      "ctaButton": "Katıl",
+      "registrationLink": "/events/event-005/register"
+    },
+    {
+      "id": "event-006",
+      "title": "Deprem Sonrası Sosyal Destek Araştırması - Anket",
+      "type": "micro",
+      "category": "disaster",
+      "description": "Deprem bölgesindeki insanların psikolojik durumu hakkında araştırma yapan anket. Sadece 15 dakika, önemli veri.",
+      "organization": "Turban Üniversitesi Psikoloji Bölümü",
+      "organizationLogo": "/images/partners/turban-university.svg",
+      "location": "Çevrimiçi",
+      "startDate": "2024-11-28",
+      "endDate": "2025-01-15",
+      "estimatedTime": "15 dakika",
+      "participants": 1204,
+      "spotsAvailable": 2000,
+      "difficulty": "Kolay",
+      "rewards": ["Araştırma Katılımcı Rozetı", "Sertifika"],
+      "ctaButton": "Ankete Katıl",
+      "registrationLink": "/events/event-006/register"
+    }
+  ],
+  "pastEvents": {
+    "title": "Geçmiş Etkinlikler",
+    "description": "Tamamlanmış projeler ve sonuçları",
+    "events": [
+      {
+        "id": "past-001",
+        "title": "Kasım Ayı Sosyal Medya Tasarım Kampanyası",
+        "date": "2024-11-01 - 2024-11-30",
+        "category": "tech",
+        "participants": 312,
+        "hoursContributed": 624,
+        "result": "45 tasarımcı, 150+ sosyal medya görseli ürettiler. Organizasyon sosyal medya ulaşımı %300 artırdı."
+      },
+      {
+        "id": "past-002",
+        "title": "Ekim Ayı Afrin'e Yardım Kampanyası",
+        "date": "2024-10-15 - 2024-10-31",
+        "category": "disaster",
+        "participants": 1028,
+        "hoursContributed": 2056,
+        "result": "650 kg malzeme toplanmış, 50 aile desteğine alınmıştır."
+      }
+    ]
+  },
+  "upcomingCalendar": {
+    "title": "Gelecek Hafta Takvimi",
+    "events": [
+      { "date": "2024-12-02", "count": 8, "label": "8 etkinlik" },
+      { "date": "2024-12-03", "count": 12, "label": "12 etkinlik" },
+      { "date": "2024-12-04", "count": 5, "label": "5 etkinlik" },
+      { "date": "2024-12-05", "count": 15, "label": "15 etkinlik" }
+    ]
+  },
+  "cta": {
+    "title": "Bir Etkinliğe Katılmak İstediniz mi?",
+    "description": "Yalnızca 30 saniyede kaydolun ve katkıda bulunmaya başlayın",
+    "button": "Etkinlikleri Keşfet",
+    "link": "/events"
+  }
+}

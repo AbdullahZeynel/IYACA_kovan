@@ -1,0 +1,107 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    function isAdmin() {
+      return isSignedIn() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // Users collection
+    match /users/{userId} {
+      allow read: if isSignedIn(); // All authenticated users can read profiles
+      allow create: if isSignedIn() && isOwner(userId);
+      allow update: if isSignedIn() && isOwner(userId);
+      allow delete: if isOwner(userId) || isAdmin();
+    }
+    
+    // Posts collection
+    match /posts/{postId} {
+      allow read: if true; // Public read for feed
+      allow create: if true; // Allow anyone to create posts (for testing)
+      allow update: if true; // Allow anyone to update posts (for likes)
+      allow delete: if isSignedIn() && (isOwner(resource.data.authorId) || isAdmin());
+      
+      // Comments subcollection
+      match /comments/{commentId} {
+        allow read: if true; // Public read
+        allow create: if true; // Allow anyone to create comments (for testing)
+        allow update, delete: if true; // Allow anyone to update/delete comments
+      }
+      
+      // Likes subcollection
+      match /likes/{userId} {
+        allow read: if true;
+        allow write: if isSignedIn() && isOwner(userId);
+      }
+    }
+    
+    // Programs collection
+    match /programs/{programId} {
+      allow read: if true; // Public read
+      allow create: if isAdmin();
+      allow update, delete: if isAdmin() || isOwner(resource.data.coordinator.userId);
+      
+      // Applications subcollection
+      match /applications/{applicationId} {
+        allow read: if isSignedIn() && (isOwner(resource.data.userId) || isAdmin());
+        allow create: if isSignedIn() && isOwner(request.resource.data.userId);
+        allow update: if isSignedIn() && (isOwner(resource.data.userId) || isAdmin());
+        allow delete: if isOwner(resource.data.userId);
+      }
+    }
+    
+    // Hashtags collection
+    match /hashtags/{hashtagId} {
+      allow read: if true; // Public read for trending
+      allow write: if false; // Only backend can write
+    }
+    
+    // Followers collection
+    match /followers/{followId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && isOwner(request.resource.data.followerId);
+      allow delete: if isSignedIn() && isOwner(resource.data.followerId);
+    }
+    
+    // Notifications collection
+    match /notifications/{notificationId} {
+      allow read: if isSignedIn() && isOwner(resource.data.userId);
+      allow create: if isSignedIn();
+      allow update: if isSignedIn() && isOwner(resource.data.userId);
+      allow delete: if isSignedIn() && isOwner(resource.data.userId);
+    }
+    
+    // Badges collection
+    match /badges/{badgeId} {
+      allow read: if true; // Public read
+      allow write: if isAdmin();
+    }
+    
+    // Statistics collection
+    match /statistics/{statId} {
+      allow read: if isSignedIn();
+      allow write: if false; // Only backend/cloud functions
+    }
+    
+    // Activities collection
+    match /activities/{activityId} {
+      allow read: if isSignedIn() && (resource.data.isPublic == true || isOwner(resource.data.userId));
+      allow create: if isSignedIn() && isOwner(request.resource.data.userId);
+      allow update, delete: if isSignedIn() && isOwner(resource.data.userId);
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

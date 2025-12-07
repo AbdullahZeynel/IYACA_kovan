@@ -1,0 +1,324 @@
+{
+  "pageTitle": "Kayıt & Başvuru Formları",
+  "pageDescription": "Platforma katılın veya bir etkinliğe başvurun",
+  "hero": {
+    "title": "Gönüllülük Yolculuğunuza Başlayın",
+    "subtitle": "Basit, hızlı ve güvenli kayıt işlemi"
+  },
+  "formTypes": [
+    {
+      "id": "volunteer-registration",
+      "title": "Bireysel Gönüllü Kaydı",
+      "description": "Platform kullanıcısı olarak profil oluşturun",
+      "icon": "user-plus",
+      "estimatedTime": "5 dakika",
+      "ctaButton": "Gönüllü Olarak Kaydol"
+    },
+    {
+      "id": "organization-registration",
+      "title": "Kurumsal/Kuruluş Kaydı",
+      "description": "STK veya kamu kurumu olarak hesap oluşturun",
+      "icon": "building",
+      "estimatedTime": "10 dakika",
+      "ctaButton": "Kurum Hesabı Oluştur"
+    },
+    {
+      "id": "event-application",
+      "title": "Etkinliğe Başvuru",
+      "description": "Belirli bir etkinliğe katılmak için başvur",
+      "icon": "calendar-check",
+      "estimatedTime": "2 dakika",
+      "ctaButton": "Etkinliğe Başvur"
+    }
+  ],
+  "forms": {
+    "volunteer": {
+      "title": "Gönüllü Kayıt Formu",
+      "description": "Lütfen aşağıdaki bilgileri doldurunuz. Her alan önemlidir.",
+      "sections": [
+        {
+          "title": "Kişisel Bilgiler",
+          "fields": [
+            {
+              "name": "firstName",
+              "type": "text",
+              "label": "Adınız",
+              "placeholder": "Adınızı giriniz",
+              "required": true,
+              "validation": "min:2"
+            },
+            {
+              "name": "lastName",
+              "type": "text",
+              "label": "Soyadınız",
+              "placeholder": "Soyadınızı giriniz",
+              "required": true,
+              "validation": "min:2"
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "label": "E-posta Adresi",
+              "placeholder": "example@email.com",
+              "required": true,
+              "validation": "email"
+            },
+            {
+              "name": "phone",
+              "type": "tel",
+              "label": "Telefon Numarası",
+              "placeholder": "+90 (5xx) xxx xxxx",
+              "required": true,
+              "validation": "phone"
+            },
+            {
+              "name": "birthDate",
+              "type": "date",
+              "label": "Doğum Tarihi",
+              "required": true,
+              "validation": "min:18-years-old"
+            },
+            {
+              "name": "province",
+              "type": "select",
+              "label": "İli",
+              "options": [
+                { "value": "istanbul", "label": "İstanbul" },
+                { "value": "ankara", "label": "Ankara" },
+                { "value": "izmir", "label": "İzmir" },
+                { "value": "other", "label": "Diğer (Seçmek için aşağı kaydırın)" }
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "title": "İlgi Alanları ve Beceriler",
+          "fields": [
+            {
+              "name": "interests",
+              "type": "checkbox-group",
+              "label": "İlgi Alanlarınız",
+              "helperText": "Bir veya daha fazla seçin",
+              "options": [
+                { "value": "education", "label": "Eğitim" },
+                { "value": "health", "label": "Sağlık" },
+                { "value": "environment", "label": "Çevre" },
+                { "value": "disaster", "label": "Afet Yardımı" },
+                { "value": "technology", "label": "Teknoloji" },
+                { "value": "social", "label": "Sosyal Bakım" },
+                { "value": "arts", "label": "Sanat & Kültür" }
+              ],
+              "required": true
+            },
+            {
+              "name": "skills",
+              "type": "textarea",
+              "label": "Becerileriniz",
+              "placeholder": "Yazılım, tasarım, öğretim, vb. (virgülle ayırın)",
+              "required": false,
+              "maxLength": 500
+            },
+            {
+              "name": "experience",
+              "type": "select",
+              "label": "Gönüllülük Deneyimi",
+              "options": [
+                { "value": "none", "label": "Daha önce hiç gönüllülük yapmadım" },
+                { "value": "1-year", "label": "1 yıl kadar" },
+                { "value": "1-3-years", "label": "1-3 yıl" },
+                { "value": "3-plus-years", "label": "3+ yıl" }
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "title": "Zaman Uygunluğu",
+          "fields": [
+            {
+              "name": "weeklyAvailableHours",
+              "type": "select",
+              "label": "Haftada Ayırabileceğiniz Ortalama Saat",
+              "options": [
+                { "value": "0-2", "label": "0-2 saat (Hafif)" },
+                { "value": "2-5", "label": "2-5 saat (Orta)" },
+                { "value": "5-10", "label": "5-10 saat (Yoğun)" },
+                { "value": "10-plus", "label": "10+ saat (Çok Yoğun)" }
+              ],
+              "required": true
+            },
+            {
+              "name": "preferredFormat",
+              "type": "checkbox-group",
+              "label": "Tercih Ettiğiniz Gönüllülük Formatı",
+              "options": [
+                { "value": "micro", "label": "Mikro-Gönüllülük (1-2 saat)" },
+                { "value": "ongoing", "label": "Devam Eden Proje (Haftalık)" },
+                { "value": "event", "label": "Etkinlik & Kampanya" },
+                { "value": "remote", "label": "Uzaktan (Çevrimiçi)" },
+                { "value": "local", "label": "Yerel (İlinizdeki)" }
+              ],
+              "required": true
+            }
+          ]
+        },
+        {
+          "title": "Motivasyon",
+          "fields": [
+            {
+              "name": "motivation",
+              "type": "textarea",
+              "label": "Neden gönüllülük yapmak istiyorsunuz? (İsteğe bağlı)",
+              "placeholder": "Sizin için gönüllülüğün anlamı nedir?",
+              "required": false,
+              "maxLength": 500
+            }
+          ]
+        },
+        {
+          "title": "Gizlilik & Onay",
+          "fields": [
+            {
+              "name": "privacyConsent",
+              "type": "checkbox",
+              "label": "Kişisel verilerim KVKK'ya göre işlenebilir",
+              "required": true
+            },
+            {
+              "name": "termsConsent",
+              "type": "checkbox",
+              "label": "Kullanım Şartlarını okudum ve kabul ediyorum",
+              "required": true
+            },
+            {
+              "name": "newsletter",
+              "type": "checkbox",
+              "label": "Yeni etkinlikler ve haberler hakkında bana e-posta gönderin",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "submitButton": "Kaydoldu",
+      "successMessage": "Kaydınız tamamlandı! Hoş geldiniz! Platform üzerinde keşfetmeye başlayabilirsiniz.",
+      "errorMessage": "Lütfen tüm gerekli alanları doldurunuz."
+    },
+    "organization": {
+      "title": "Kurum Kayıt Formu",
+      "description": "Kuruluşunuzu platforma kaydedin ve gönüllülerle iş birliği yapmaya başlayın",
+      "sections": [
+        {
+          "title": "Kurum Bilgileri",
+          "fields": [
+            {
+              "name": "organizationName",
+              "type": "text",
+              "label": "Kurum Adı",
+              "required": true
+            },
+            {
+              "name": "organizationType",
+              "type": "select",
+              "label": "Kurum Türü",
+              "options": [
+                { "value": "ngo", "label": "Sivil Toplum Kuruluşu (STK)" },
+                { "value": "government", "label": "Kamu Kurumu" },
+                { "value": "private", "label": "Özel Sektor" },
+                { "value": "university", "label": "Üniversite" },
+                { "value": "other", "label": "Diğer" }
+              ],
+              "required": true
+            },
+            {
+              "name": "registrationNumber",
+              "type": "text",
+              "label": "Vergi Numarası veya Kurum No",
+              "required": true
+            }
+          ]
+        },
+        {
+          "title": "İletişim Bilgileri",
+          "fields": [
+            {
+              "name": "contactPerson",
+              "type": "text",
+              "label": "İletişim Kişi Adı",
+              "required": true
+            },
+            {
+              "name": "contactEmail",
+              "type": "email",
+              "label": "Kurumsal E-posta",
+              "required": true
+            },
+            {
+              "name": "contactPhone",
+              "type": "tel",
+              "label": "Kurumsal Telefon",
+              "required": true
+            },
+            {
+              "name": "address",
+              "type": "textarea",
+              "label": "Adres",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "submitButton": "Kurum Hesabı Oluştur",
+      "successMessage": "Kurum hesabınız oluşturulmuştur. Yakında yönetim paneline erişeceksiniz."
+    },
+    "eventApplication": {
+      "title": "Etkinliğe Başvuru Formu",
+      "sections": [
+        {
+          "title": "Kişisel Bilgiler",
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "label": "Adınız",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "label": "E-posta",
+              "required": true
+            },
+            {
+              "name": "phone",
+              "type": "tel",
+              "label": "Telefon",
+              "required": true
+            }
+          ]
+        },
+        {
+          "title": "Başvuru Detayları",
+          "fields": [
+            {
+              "name": "motivation",
+              "type": "textarea",
+              "label": "Bu etkinliğe katılmak için ne sebeple başvuruyorsunuz?",
+              "required": true,
+              "maxLength": 300
+            },
+            {
+              "name": "experience",
+              "type": "textarea",
+              "label": "İlgili deneyiminiz var mı?",
+              "required": false,
+              "maxLength": 300
+            }
+          ]
+        }
+      ],
+      "submitButton": "Başvuru Gönder",
+      "successMessage": "Başvurunuz alınmıştır. Organizasyon sizinle yakında iletişime geçecektir."
+    }
+  }
+}

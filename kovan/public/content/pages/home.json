@@ -1,0 +1,109 @@
+{
+  "pageTitle": "Türkiye Dijital Gönüllülük Dönüşüm Projesi",
+  "pageDescription": "Gönüllülüğü ölçülebilir, görünür ve sürdürülebilir kılıyoruz",
+  "hero": {
+    "title": "Türkiye Dijital Gönüllülük Dönüşüm Projesi",
+    "subtitle": "Gönüllülüğü ölçülebilir, görünür ve sürdürülebilir kılıyoruz",
+    "description": "Türkiye'nin yardımlaşma kültürünü dijital çağa taşıyarak, milyonlarca gönüllü ve kurumları bir araya getiren ulusal bir platform.",
+    "ctaButton": "Platforma Keşfet",
+    "ctaLink": "/platform",
+    "heroImage": "/images/hero-volunteering.jpg"
+  },
+  "paradox": {
+    "title": "Gönüllülüğün Türkiye Paradoksu",
+    "subtitle": "Neden 'yardım alma kültürü olan' Türkiye küresel gönüllülük sıralamasında 121. sırada?",
+    "problemCards": [
+      {
+        "id": 1,
+        "title": "Görünmezlik Sorunu",
+        "description": "Gönüllü çalışmaların büyük kısmı kaydedilmiyor. Gerçek etki ölçülemiyor.",
+        "stat": "85%"
+      },
+      {
+        "id": 2,
+        "title": "Verimlilik Kaybı",
+        "description": "Gönüllü ve proje eşleşmesi hala manuel ve zaman alıcı.",
+        "stat": "€2.4B"
+      },
+      {
+        "id": 3,
+        "title": "Kalıcılık Eksikliği",
+        "description": "Gönüllüler bir projeyi bitirdikten sonra sistem ile bağlantıyı kaybedebiliyor.",
+        "stat": "62%"
+      }
+    ]
+  },
+  "metrics": {
+    "title": "Canlı Veriler",
+    "description": "Platformun gerçek zamanlı etki göstergelerine bakın",
+    "stats": [
+      {
+        "label": "Kayıtlı Gönüllü",
+        "value": "1,240,000+",
+        "icon": "users"
+      },
+      {
+        "label": "Tamamlanan Proje",
+        "value": "45,800+",
+        "icon": "checkmark"
+      },
+      {
+        "label": "Katkı Saati",
+        "value": "18.5M+",
+        "icon": "clock"
+      },
+      {
+        "label": "Kapsanan İller",
+        "value": "81",
+        "icon": "map"
+      }
+    ]
+  },
+  "features": {
+    "title": "Platform Çözümleri",
+    "subtitle": "Dört ana özellikle gönüllülüğü dönüştürüyoruz",
+    "featureCards": [
+      {
+        "id": "volunteers-map",
+        "title": "Gönüllü Haritası",
+        "description": "Türkiye'nin her ilinde gönüllülük yoğunluğunu görselleştiren interaktif harita.",
+        "icon": "map-marker",
+        "link": "/harita"
+      },
+      {
+        "id": "digital-profiles",
+        "title": "Dijital Profiller",
+        "description": "Gönüllülerin katkılarını, becerilerini ve etkisini dijital CV olarak sunuyor.",
+        "icon": "user-check",
+        "link": "/profiller"
+      },
+      {
+        "id": "micro-volunteering",
+        "title": "Mikro-Gönüllülük",
+        "description": "1-2 saatlik kısa görevler ile herkes katkıda bulunabilir.",
+        "icon": "lightning",
+        "link": "/etkinlikler"
+      },
+      {
+        "id": "impact-reporting",
+        "title": "Etki Raporlama",
+        "description": "Gönüllülerin çalışmalarının otomatik raporlanması ve sertifikasyon.",
+        "icon": "chart-bar",
+        "link": "/platform"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blogundan Öne Çıkanlar",
+    "subtitle": "En son haberler, araştırmalar ve gönüllü hikayeleri",
+    "featuredPosts": ["post-001", "post-002", "post-003"]
+  },
+  "cta": {
+    "title": "Gönüllülük Yolculuğunuza Başlayın",
+    "description": "Milyonlarca gönüllü ile birlikte hayatı değiştirecek projelerde yer alın.",
+    "primaryButton": "Gönüllü Ol",
+    "primaryLink": "/register",
+    "secondaryButton": "Kurumsal Bilgi",
+    "secondaryLink": "/about"
+  }
+}

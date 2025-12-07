@@ -1,0 +1,185 @@
+{
+  "pageTitle": "İletişim",
+  "pageDescription": "Bize ulaşın, sorularınızı sorun ve iş birliği yapın",
+  "hero": {
+    "title": "İletişim & Destek",
+    "subtitle": "Sorularınız, önerileriniz ve iş birliği fırsatları için bize yazın"
+  },
+  "contactInfo": {
+    "email": "info@gonullulukplatformu.gov.tr",
+    "phone": "0212 XXX XXXX",
+    "address": "İstanbul Teknoloji Üniversitesi, Rektörlüğü, Maslak, İstanbul",
+    "officeHours": "Pazartesi - Cuma, 09:00 - 17:00",
+    "responseTime": "48 saat içinde cevap alacaksınız"
+  },
+  "contactForm": {
+    "title": "Bize Mesaj Gönderin",
+    "description": "Lütfen aşağıdaki formu doldurun. Sizinle en kısa zamanda iletişime geçeceğiz.",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Adınız",
+        "placeholder": "Adınızı giriniz",
+        "required": true
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "E-posta Adresi",
+        "placeholder": "example@email.com",
+        "required": true
+      },
+      {
+        "name": "subject",
+        "type": "select",
+        "label": "Konu",
+        "options": [
+          { "value": "general-inquiry", "label": "Genel Soru" },
+          { "value": "partnership", "label": "İş Birliği Teklifi" },
+          { "value": "technical-issue", "label": "Teknik Sorun" },
+          { "value": "feedback", "label": "Geri Bildirim" },
+          { "value": "other", "label": "Diğer" }
+        ],
+        "required": true
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "label": "Mesajınız",
+        "placeholder": "Lütfen detaylı bir mesaj yazınız",
+        "required": true,
+        "maxLength": 1000
+      }
+    ],
+    "submitButton": "Gönder",
+    "successMessage": "Mesajınız başarıyla gönderildi. Sizinle yakında iletişime geçeceğiz!"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "description": "Platformu kullanırken sorularınıza yanıt bulmak için aşağıdaki soruları inceleyin.",
+    "questions": [
+      {
+        "id": "faq-001",
+        "question": "Platform tamamen ücretsiz mi?",
+        "answer": "Evet, platform tamamen ücretsizdir. Gönüllüler için hiçbir ücret yoktur. STK'lar ve kamu kurumları için de temel hizmetler ücretsizdir. Sadece ileri özellikleri kullanmak isteyen büyük organizasyonlar için opsiyonel premium paketler mevcuttur."
+      },
+      {
+        "id": "faq-002",
+        "question": "Kişisel verilerim güvenli mi?",
+        "answer": "Evet. Platform, KVKK ve GDPR'ye uygun olarak tasarlanmıştır. Kişisel verileriniz, end-to-end şifreleme ile korunmaktadır. Düzenli güvenlik denetimleri yapılmaktadır. Verilerinizi indirmek veya silmek istiyorsanız, istediğiniz zaman talep edebilirsiniz."
+      },
+      {
+        "id": "faq-003",
+        "question": "Gönüllülüğün hiçbir deneyimi yoksa başlayabilir mi?",
+        "answer": "Kesinlikle! Platform, tüm seviyeler için tasarlanmıştır. Başlangıç düzeyinde görevler ve eğitim materyalleri mevcuttur. Mikro-gönüllülük görevleri, özellikle yeni başlayanlar için uygundur."
+      },
+      {
+        "id": "faq-004",
+        "question": "Kazanılan rozetler ve sertifikalar ne işe yarar?",
+        "answer": "Sertifikaları CV'nize ekleyebilir, LinkedIn profilinizde paylaşabilir, ve diğer platformlara taşıyabilirsiniz. İşverenler ve eğitim kurumları tarafından tanınabilirler. İşe alım sırasında, gönüllülük deneyimi artı sertifika, adayları öne çıkarabilir."
+      },
+      {
+        "id": "faq-005",
+        "question": "Kurumsal olarak nasıl kayıt olabiliriz?",
+        "answer": "Kurumsal Kaydı Formu sayfasında bulabilirsiniz. Kurum bilgilerinizi, vergi numarasını ve iletişim kişisini girdikten sonra, yönetim paneline erişim kazanacaksınız. Platform tarafından doğrulama işlemi 2-3 iş günü içinde tamamlanacaktır."
+      },
+      {
+        "id": "faq-006",
+        "question": "Etkinliklere kaydolmak ne kadar kolay?",
+        "answer": "Çok kolay. Platformda üye olduktan sonra, bir etkinliği seçin, 'Katıl' butonuna tıklayın, basit bilgiler girin ve başarılı! Otomatik onay yapılacak."
+      },
+      {
+        "id": "faq-007",
+        "question": "WhatsApp ile nasıl gönüllülük yapabilirim?",
+        "answer": "Telefon etmeye veya internet erişimi olmayan bireyler için, Platform WhatsApp entegrasyonu sunmaktadır. Belirli görevler, WhatsApp mesajı ile gönderilir ve cevaplar mesaj ile alınır. Böylece, internet erişimi sınırlı olan gönüllüler de katılabilir."
+      },
+      {
+        "id": "faq-008",
+        "question": "Gönüllülük deneyimi, kariyer gelişime nasıl katkı sağlıyor?",
+        "answer": "Platform tarafından kaydedilen gönüllülük deneyimi, hem formal hem informal beceri kazanımını gösterir. İşverenlere, adayın sosyal sorumluluk bilincini, beceri seviyesini ve tutarlılığını gösterir. Çoğu gönüllü, gönüllülük deneyimi sayesinde yeni iş bulmuş veya terfi almıştır."
+      }
+    ]
+  },
+  "partnerships": {
+    "title": "İş Birliği Fırsatları",
+    "description": "Platformu genişletmek ve geliştirebilmek için iş birlikleri arıyoruz",
+    "opportunities": [
+      {
+        "title": "STK İş Birliği",
+        "description": "Gönüllü bulmanız, projelerinizi yönetmeniz ve etkisini ölçmeniz için platformu kullanabilirsiniz."
+      },
+      {
+        "title": "Kamu Kurumları Entegrasyonu",
+        "description": "Sosyal politika ve gönüllülük programlarını platformu aracılığıyla ölçeklendirebilirsiniz."
+      },
+      {
+        "title": "Akademik İş Birlikleri",
+        "description": "Araştırma projeleriniz için veri kaynak ve metodoloji desteği sağlıyoruz."
+      },
+      {
+        "title": "Özel Sektor İş Birliği",
+        "description": "Kurumsal sosyal sorumluluk programlarınızı dijitalleştirip ölçeklendir"
+      },
+      {
+        "title": "Teknoloji İş Birlikleri",
+        "description": "API ve entegrasyon aracılığıyla kendi platformunuza gönüllülük özelliği ekleyebilirsiniz."
+      }
+    ]
+  },
+  "mediaKit": {
+    "title": "Basın & Medya",
+    "description": "Proje hakkında yazarken kullanabileceğiniz resmi materyaller",
+    "downloads": [
+      {
+        "title": "Proje Logosu (Yatay)",
+        "description": "Yatay formatta resmi logo",
+        "format": "SVG, PNG, PDF",
+        "link": "/media/logo-horizontal.zip"
+      },
+      {
+        "title": "Proje Logosu (Dikey)",
+        "description": "Dikey formatta resmi logo",
+        "format": "SVG, PNG, PDF",
+        "link": "/media/logo-vertical.zip"
+      },
+      {
+        "title": "Proje Broşürü",
+        "description": "2 sayfalık resmi tanıtım broşürü",
+        "format": "PDF",
+        "link": "/media/brochure.pdf"
+      },
+      {
+        "title": "İstatistik Infografikleri",
+        "description": "Proje tarafından üretilen temel istatistikleri göstereninfografik",
+        "format": "PNG, PDF",
+        "link": "/media/infographics.zip"
+      }
+    ]
+  },
+  "socialMedia": {
+    "title": "Sosyal Medyada Bizi Takip Edin",
+    "links": [
+      {
+        "platform": "Twitter/X",
+        "handle": "@gonulluluktr",
+        "url": "https://x.com/gonulluluktr"
+      },
+      {
+        "platform": "Instagram",
+        "handle": "@gonullulukplatformu",
+        "url": "https://instagram.com/gonullulukplatformu"
+      },
+      {
+        "platform": "LinkedIn",
+        "handle": "Türkiye Dijital Gönüllülük Dönüşüm Projesi",
+        "url": "https://linkedin.com/company/gonulluluk-turkiye"
+      },
+      {
+        "platform": "Facebook",
+        "handle": "/gonullulukplatformu",
+        "url": "https://facebook.com/gonullulukplatformu"
+      }
+    ]
+  }
+}

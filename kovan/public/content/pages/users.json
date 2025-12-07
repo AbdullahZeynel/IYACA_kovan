@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Ayşe Yılmaz",
+      "avatar": "AY",
+      "title": "Gönüllü Koordinatörü",
+      "location": "İstanbul",
+      "bio": "Teknoloji ve eğitimle ilgileniyorum. Open source projelere katkı sağlıyorum. Coffee enthusiast ☕",
+      "website": "https://aysecelik.dev",
+      "verified": true,
+      "joinDate": "Ocak 2023",
+      "stats": {
+        "followers": 1250,
+        "following": 385,
+        "posts": 142,
+        "projectsCompleted": 18,
+        "hoursVolunteered": 285
+      },
+      "skills": ["JavaScript", "React", "Python", "UI Design", "Eğitim"],
+      "badges": ["Başlangıç", "Ustalaşan", "Lider", "Uzman", "Sosyal Ağ Kurucusu"],
+      "level": 5,
+      "xp": 2850,
+      "recentActivity": [
+        "50 saat yazılım eğitimi verdi",
+        "3 open source projeye katkı sağladı",
+        "50 gönüllüyü takip ediyor"
+      ],
+      "connections": ["user-002", "user-003", "user-004"],
+      "endorsements": {
+        "React": 45,
+        "Liderlik": 32,
+        "Eğitim": 28,
+        "JavaScript": 38
+      }
+    },
+    {
+      "id": "user-002",
+      "name": "Mehmet Demir",
+      "avatar": "MD",
+      "title": "Yazılım Gönüllüsü",
+      "location": "Ankara",
+      "bio": "Genç insanlara kod ve teknoloji öğretiyorum. Bilim ve felsefe tutkunu.",
+      "website": null,
+      "verified": false,
+      "joinDate": "Mart 2023",
+      "stats": {
+        "followers": 856,
+        "following": 234,
+        "posts": 67,
+        "projectsCompleted": 12,
+        "hoursVolunteered": 450
+      },
+      "skills": ["HTML/CSS", "Python", "Eğitim", "Mentoring", "İçerik Yazarlığı"],
+      "badges": ["Başlangıç", "Ustalaşan", "Lider", "Etki Elçisi"],
+      "level": 4,
+      "xp": 2100,
+      "recentActivity": [
+        "HTML/CSS eğitimi verdi",
+        "15 öğrenciyi mentoring yapıyor",
+        "Blog yazısı yayınladı"
+      ],
+      "connections": ["user-001", "user-005"],
+      "endorsements": {
+        "Eğitim": 67,
+        "Python": 32,
+        "Mentoring": 54,
+        "Liderlik": 25
+      }
+    },
+    {
+      "id": "user-003",
+      "name": "Zeynep Kaya",
+      "avatar": "ZK",
+      "title": "Sosyal Proje Lideri",
+      "location": "İzmir",
+      "bio": "Sağlık sektöründe gönüllülük yapıyorum. Hastane projelerinde lider.",
+      "website": null,
+      "verified": true,
+      "joinDate": "Şubat 2023",
+      "stats": {
+        "followers": 924,
+        "following": 301,
+        "posts": 89,
+        "projectsCompleted": 14,
+        "hoursVolunteered": 380
+      },
+      "skills": ["Sağlık Eğitimi", "Hasta Bakım", "Yönetim", "İletişim"],
+      "badges": ["Başlangıç", "Ustalaşan", "Lider"],
+      "level": 4,
+      "xp": 1950,
+      "recentActivity": [
+        "Sağlık eğitimi projesi başlattı",
+        "20 hemşireyi eğitti",
+        "Hastane sosyal sorumluluk programı"
+      ],
+      "connections": ["user-001", "user-004"],
+      "endorsements": {
+        "Sağlık Eğitimi": 78,
+        "Liderlik": 52,
+        "Empati": 41,
+        "Yönetim": 35
+      }
+    },
+    {
+      "id": "user-004",
+      "name": "Kadir Öztürk",
+      "avatar": "👨‍🌾",
+      "title": "Çiftçi/Çevre Aktivisti",
+      "location": "Bursa",
+      "bio": "Sürdürülebilir tarım ve çevre koruma üzerine çalışıyorum.",
+      "website": null,
+      "verified": false,
+      "joinDate": "Mayıs 2023",
+      "stats": {
+        "followers": 523,
+        "following": 187,
+        "posts": 44,
+        "projectsCompleted": 8,
+        "hoursVolunteered": 220
+      },
+      "skills": ["Çevre Koruma", "Tarım", "Sosyal Medya", "Halka Açık Konuşma"],
+      "badges": ["Başlangıç", "Ustalaşan"],
+      "level": 3,
+      "xp": 1400,
+      "recentActivity": [
+        "Radyoda çevre hakkında konuştu",
+        "50 ağaç dikimi proje tamamladı",
+        "Yerel okullara eğitim verdi"
+      ],
+      "connections": ["user-003"],
+      "endorsements": {
+        "Çevre Koruma": 65,
+        "İletişim": 28,
+        "Sosyal Medya": 18,
+        "Liderlik": 22
+      }
+    },
+    {
+      "id": "user-me",
+      "name": "Mehmet Korkmaz",
+      "avatar": "MK",
+      "title": "Gönüllü",
+      "location": "İstanbul",
+      "bio": "Gönüllülük faaliyetlerine katılmayı seven, topluma katkı sağlamaktan mutluluk duyan biriyim.",
+      "website": null,
+      "verified": false,
+      "joinDate": "Kasım 2024",
+      "stats": {
+        "followers": 248,
+        "following": 312,
+        "posts": 15,
+        "projectsCompleted": 3,
+        "hoursVolunteered": 45
+      },
+      "skills": ["Takım Çalışması", "İletişim", "Organizasyon"],
+      "badges": ["Başlangıç"],
+      "level": 2,
+      "xp": 450,
+      "recentActivity": [
+        "İlk gönüllülük projesini tamamladı",
+        "5 etkinliğe katıldı",
+        "Profil bilgilerini güncelledi"
+      ],
+      "connections": ["user-001", "user-002"],
+      "endorsements": {
+        "Takım Çalışması": 12,
+        "İletişim": 8,
+        "Gönüllülük": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+dist/
+.env.local
+.env.*.local
+*.log
+.vscode/
+.idea/
+.eslintcache
+build/
+coverage/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.env

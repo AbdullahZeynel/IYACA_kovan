@@ -1,0 +1,118 @@
+{
+  "feed": [
+    {
+      "id": "post-001",
+      "author": {
+        "id": "user-001",
+        "name": "Ayşe Çelik",
+        "avatar": "👩‍💼",
+        "title": "Yazılım Mühendisi",
+        "verified": true
+      },
+      "timestamp": "2 saat önce",
+      "type": "achievement",
+      "content": "🎉 Seviye 5'e ulaştım! Yazılım gönüllülüğünde 500 saat geçirdim.",
+      "image": null,
+      "stats": {
+        "likes": 142,
+        "comments": 18,
+        "shares": 5,
+        "reposts": 12
+      },
+      "liked": false,
+      "engagement": "Mehmet Kaya, Zeynep Aydın ve 135 kişi daha beğendi"
+    },
+    {
+      "id": "post-002",
+      "author": {
+        "id": "user-002",
+        "name": "Mehmet Kaya",
+        "avatar": "👨‍🏫",
+        "title": "Öğretmen",
+        "verified": false
+      },
+      "timestamp": "4 saat önce",
+      "type": "text",
+      "content": "Bugün 50 çocuğa HTML/CSS öğrettim. Gözlerindeki merak ve heyecan beni etkiledi. Bu tür işler yapmanın verdiği mutluluk paha biçilemez! #TeknolojEğitimi #Gönüllülük",
+      "image": null,
+      "stats": {
+        "likes": 287,
+        "comments": 42,
+        "shares": 23,
+        "reposts": 18
+      },
+      "liked": true,
+      "engagement": "Siz ve 283 kişi daha beğendi"
+    },
+    {
+      "id": "post-003",
+      "author": {
+        "id": "user-003",
+        "name": "Zeynep Aydın",
+        "avatar": "👩‍⚕️",
+        "title": "Hemşire",
+        "verified": true
+      },
+      "timestamp": "6 saat önce",
+      "type": "event-join",
+      "content": "Üniversite Hastanesi Sosyal Sorumluluk Proje'sine katıldım! 20 gönüllüyle birlikte sağlık eğitimi vereceğiz.",
+      "image": null,
+      "stats": {
+        "likes": 156,
+        "comments": 24,
+        "shares": 8,
+        "reposts": 6
+      },
+      "liked": false,
+      "engagement": "Ayşe Çelik ve 150 kişi daha beğendi"
+    },
+    {
+      "id": "post-004",
+      "author": {
+        "id": "user-004",
+        "name": "Kadir Öztürk",
+        "avatar": "👨‍🌾",
+        "title": "Çiftçi/Çevre Aktivisti",
+        "verified": false
+      },
+      "timestamp": "8 saat önce",
+      "type": "text",
+      "content": "Bugün çevresel gönüllülük hakkında yerel radyoda röportaj verdim. Platformun ne kadar yardımcı olduğunu anlatmak çok güzeldi!",
+      "image": null,
+      "stats": {
+        "likes": 89,
+        "comments": 12,
+        "shares": 4,
+        "reposts": 3
+      },
+      "liked": false,
+      "engagement": "34 kişi beğendi"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "user-005",
+      "name": "Selin Demir",
+      "title": "Grafik Tasarımcı",
+      "avatar": "👩‍🎨",
+      "mutualFriends": 12,
+      "reason": "Yazılım ve tasarımla ilgilenenler tarafından takip ediliyor"
+    },
+    {
+      "id": "user-006",
+      "name": "Ahmet Yıldız",
+      "title": "Proje Yöneticisi",
+      "avatar": "👨‍💼",
+      "mutualFriends": 8,
+      "reason": "Sosyal gönüllülük projelerine katılanlar tarafından takip ediliyor"
+    },
+    {
+      "id": "user-007",
+      "name": "Naz Şahin",
+      "title": "İçerik Editörü",
+      "avatar": "👩‍📝",
+      "mutualFriends": 5,
+      "reason": "Bloglama ve yazarlık ile ilgilenenlerin takip listesinde"
+    }
+  ]
+}

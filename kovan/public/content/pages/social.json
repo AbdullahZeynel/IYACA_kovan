@@ -1,0 +1,147 @@
+{
+  "conversations": [
+    {
+      "id": "conv-001",
+      "participants": [
+        {
+          "id": "user-001",
+          "name": "Ayşe Çelik",
+          "avatar": "👩‍💼",
+          "lastSeen": "şu anda çevrimiçi"
+        },
+        {
+          "id": "user-002",
+          "name": "Mehmet Kaya",
+          "avatar": "👨‍🏫",
+          "lastSeen": "30 dakika önce"
+        }
+      ],
+      "lastMessage": "Yazılım eğitimi projesi hakkında konuşabiliriz mi?",
+      "timestamp": "5 dakika önce",
+      "unread": false,
+      "messages": [
+        {
+          "id": "msg-001",
+          "sender": "user-002",
+          "content": "Merhaba Ayşe! Yazılım eğitimi projesi hakkında fikrin var mı?",
+          "timestamp": "09:30",
+          "read": true
+        },
+        {
+          "id": "msg-002",
+          "sender": "user-001",
+          "content": "Merhaba Mehmet! Evet, çok iyi bir fikir. React ile başlayabilir miyiz?",
+          "timestamp": "09:35",
+          "read": true
+        },
+        {
+          "id": "msg-003",
+          "sender": "user-002",
+          "content": "Kesinlikle! Başlangıç seviyesi için 8 haftalık kurs hazırlayabiliriz",
+          "timestamp": "09:40",
+          "read": true
+        },
+        {
+          "id": "msg-004",
+          "sender": "user-001",
+          "content": "Yazılım eğitimi projesi hakkında konuşabiliriz mi?",
+          "timestamp": "09:45",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "conv-002",
+      "participants": [
+        {
+          "id": "user-001",
+          "name": "Ayşe Çelik",
+          "avatar": "👩‍💼",
+          "lastSeen": "şu anda çevrimiçi"
+        },
+        {
+          "id": "user-003",
+          "name": "Zeynep Aydın",
+          "avatar": "👩‍⚕️",
+          "lastSeen": "2 saat önce"
+        }
+      ],
+      "lastMessage": "Sağlık eğitimi projesi için yardımcı olabilir misin?",
+      "timestamp": "2 saat önce",
+      "unread": true,
+      "messages": [
+        {
+          "id": "msg-005",
+          "sender": "user-003",
+          "content": "Ayşe, sağlık eğitimi projesi için teknoloji desteği gerekiyor",
+          "timestamp": "14:20",
+          "read": true
+        },
+        {
+          "id": "msg-006",
+          "sender": "user-003",
+          "content": "Sağlık eğitimi projesi için yardımcı olabilir misin?",
+          "timestamp": "14:25",
+          "read": false
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "type": "like",
+      "actor": {
+        "id": "user-002",
+        "name": "Mehmet Kaya",
+        "avatar": "👨‍🏫"
+      },
+      "action": "beğendi",
+      "target": "post",
+      "targetId": "post-001",
+      "targetPreview": "🎉 Seviye 5'e ulaştım!",
+      "timestamp": "2 dakika önce",
+      "read": false
+    },
+    {
+      "id": "notif-002",
+      "type": "comment",
+      "actor": {
+        "id": "user-003",
+        "name": "Zeynep Aydın",
+        "avatar": "👩‍⚕️"
+      },
+      "action": "yorum yaptı",
+      "target": "post",
+      "targetId": "post-002",
+      "targetPreview": "Tebrikler! Harika bir şey yapıyorsun.",
+      "timestamp": "15 dakika önce",
+      "read": false
+    },
+    {
+      "id": "notif-003",
+      "type": "follow",
+      "actor": {
+        "id": "user-005",
+        "name": "Selin Demir",
+        "avatar": "👩‍🎨"
+      },
+      "action": "seni takip etmeye başladı",
+      "timestamp": "1 saat önce",
+      "read": false
+    },
+    {
+      "id": "notif-004",
+      "type": "message",
+      "actor": {
+        "id": "user-002",
+        "name": "Mehmet Kaya",
+        "avatar": "👨‍🏫"
+      },
+      "action": "sana mesaj gönderdi",
+      "targetPreview": "Yazılım eğitimi projesi hakkında...",
+      "timestamp": "5 dakika önce",
+      "read": false
+    }
+  ]
+}

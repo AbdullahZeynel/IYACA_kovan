@@ -1,0 +1,159 @@
+{
+  "mockPosts": [
+    {
+      "id": 1,
+      "author": {
+        "userId": "user-001",
+        "name": "Ayşe Yılmaz",
+        "title": "Çevre Gönüllülüğü Koordinatörü",
+        "avatar": "AY",
+        "avatarUrl": "",
+        "isVerified": true
+      },
+      "content": "🌿 Bugün Beykoz sahilinde düzenlediğimiz çevre temizliği etkinliğimizi başarıyla tamamladık!\n\n50'den fazla gönüllümüzle sabah 08:00'de başlayıp öğlene kadar süren çalışmamızda toplam 200kg atık topladık. Bunların %60'ı plastik, %25'i cam ve %15'i metal atıktı.\n\nGönüllülerimizin özverisi ve ekip ruhu gerçekten takdire şayan. Herkese çok teşekkürler! 💚\n\n📸 Etkinlikten kareler yakında paylaşılacak.\n\n#Gönüllülük #ÇevreKoruma #SürdürülebilirYaşam #BeykozSahili #PlastikKirliliği",
+      "timestamp": "2h ago",
+      "likes": 124,
+      "comments": 18,
+      "shares": 7,
+      "views": 1247,
+      "commentList": [
+        {
+          "id": 1,
+          "author": "Mehmet Kaya",
+          "avatar": "MK",
+          "text": "Harika bir çalışma! Tebrikler 👏",
+          "time": "1h ago"
+        },
+        {
+          "id": 2,
+          "author": "Elif Demir",
+          "avatar": "ED",
+          "text": "Bir sonraki etkinliğe ben de katılmak isterim",
+          "time": "45m ago"
+        },
+        {
+          "id": 3,
+          "author": "Can Yılmaz",
+          "avatar": "CY",
+          "text": "Süper! 200kg gerçekten çok iyi bir rakam",
+          "time": "30m ago"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": {
+        "userId": "user-002",
+        "name": "Mehmet Demir",
+        "title": "Yazılım Geliştirici & Sosyal Girişimci",
+        "avatar": "MD",
+        "avatarUrl": "",
+        "isVerified": true
+      },
+      "content": "🚀 Heyecanla duyuruyoruz: \"EğitimDestek\" platformumuz artık canlıda!\n\nSon 6 aydır üzerinde çalıştığımız bu açık kaynak proje ile dezavantajlı bölgelerdeki öğrencilere ücretsiz online ders desteği sağlamayı hedefliyoruz.\n\n✨ Platform Özellikleri:\n• Canlı ders yapma imkanı\n• Interaktif beyaz tahta\n• Kaynak paylaşımı\n• İlerleme takibi\n• Mentorluk eşleştirmesi\n\n💡 Gönüllü eğitmenler ve yazılım geliştiriciler olarak sizleri de aramıza bekliyoruz!\n\n🔗 GitHub: github.com/egitim-destek\n🌐 Web: egitimdestek.org\n\n#AçıkKaynak #Eğitim #SosyalSorumluluk #Yazılım #Mentorluk #EğitimHakkı",
+      "timestamp": "5h ago",
+      "likes": 189,
+      "comments": 34,
+      "shares": 25,
+      "views": 2341,
+      "commentList": [
+        {
+          "id": 1,
+          "author": "Ayşe Korkmaz",
+          "avatar": "AK",
+          "text": "Muhteşem bir proje! GitHub linkini paylaşabilir misiniz?",
+          "time": "4h ago"
+        },
+        {
+          "id": 2,
+          "author": "Burak Özkan",
+          "avatar": "BÖ",
+          "text": "Ben de katkıda bulunmak isterim, nasıl katılabilirim?",
+          "time": "3h ago"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "author": {
+        "userId": "user-003",
+        "name": "Zeynep Kaya",
+        "title": "Sosyal İnovasyon & Teknoloji Eğitmeni",
+        "avatar": "ZK",
+        "avatarUrl": "",
+        "isVerified": true
+      },
+      "content": "💻 \"Geleceğin Kodcuları\" programımızın ilk workshopu muhteşem geçti!\n\nGeçtiğimiz Cumartesi Pendik Gençlik Merkezinde düzenlediğimiz 2 günlük Python programlama eğitimine 120 genç katıldı. 14-18 yaş arası gençlerimize temel programlama mantığı, değişkenler, döngüler ve basit oyun geliştirme öğrettik.\n\n🌟 Workshop Highlights:\n• Katılımcıların %80'i ilk kez kod yazdı\n• 25 farklı mini proje geliştirildi\n• 15 genç ileri seviye programa geçmeye hak kazandı\n\n👏 Gönüllü eğitmen ekibimize ve Pendik Belediyesi'ne destekleri için teşekkürler!\n\n📅 Bir sonraki workshop: 15 Aralık\n📍 Yer: Kadıköy Teknoloji Merkezi\n✅ Kayıtlar açık: bit.ly/geleceginkodculari\n\n#Eğitim #Kodlama #Python #GençlikProgramları #TeknolojEğitimi #SosyalGirişimcilik",
+      "timestamp": "1d ago",
+      "likes": 256,
+      "comments": 41,
+      "shares": 32,
+      "views": 3156,
+      "commentList": [
+        {
+          "id": 1,
+          "author": "Selin Aydın",
+          "avatar": "SA",
+          "text": "Bir sonraki etkinliğe nasıl kayıt olabilirim?",
+          "time": "20h ago"
+        },
+        {
+          "id": 2,
+          "author": "Emre Çelik",
+          "avatar": "EÇ",
+          "text": "Çok güzel bir çalışma, emeğinize sağlık! 🎉",
+          "time": "18h ago"
+        },
+        {
+          "id": 3,
+          "author": "Deniz Aktaş",
+          "avatar": "DA",
+          "text": "Ben de eğitmen olarak katkıda bulunabilir miyim?",
+          "time": "15h ago"
+        }
+      ]
+    }
+  ],
+  "trendingTopics": [
+    {
+      "tag": "#Gönüllülük",
+      "posts": 156,
+      "slug": "gonulluluk"
+    },
+    {
+      "tag": "#Yazılım",
+      "posts": 89,
+      "slug": "yazilim"
+    },
+    {
+      "tag": "#ÇevreKoruma",
+      "posts": 67,
+      "slug": "cevre-koruma"
+    },
+    {
+      "tag": "#Eğitim",
+      "posts": 54,
+      "slug": "egitim"
+    },
+    {
+      "tag": "#SosyalSorumluluk",
+      "posts": 42,
+      "slug": "sosyal-sorumluluk"
+    },
+    {
+      "tag": "#SağlıkDestek",
+      "posts": 38,
+      "slug": "saglik-destek"
+    },
+    {
+      "tag": "#HayvanHakları",
+      "posts": 31,
+      "slug": "hayvan-haklari"
+    },
+    {
+      "tag": "#TeknolojEğitimi",
+      "posts": 27,
+      "slug": "teknoloji-egitimi"
+    }
+  ]
+}

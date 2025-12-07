@@ -1,0 +1,34 @@
+{
+  "defaultUserData": {
+    "name": "Mehmet Korkmaz",
+    "headline": "Gönüllü",
+    "bio": "Gönüllülük faaliyetlerine katılmayı seven, topluma katkı sağlamaktan mutluluk duyan biriyim.",
+    "location": "İstanbul",
+    "joinDate": "Kasım 2024",
+    "website": "",
+    "email": "",
+    "phone": "",
+    "avatarUrl": "",
+    "stats": {
+      "followers": 248,
+      "following": 312,
+      "posts": 15,
+      "projectsCompleted": 3,
+      "hoursVolunteered": 45
+    },
+    "skills": [
+      "Takım Çalışması",
+      "İletişim",
+      "Organizasyon"
+    ],
+    "badges": [
+      {
+        "id": 1,
+        "name": "Başlangıç",
+        "imageUrl": "/images/badges/beginner.png"
+      }
+    ],
+    "level": 2,
+    "xp": 450
+  }
+}

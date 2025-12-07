@@ -1,0 +1,197 @@
+{
+  "projects": [
+    {
+      "id": "project-001",
+      "title": "İstanbul Teknoloji Eğitimi",
+      "description": "Düşük gelirli bölgelerde yaşayan gençlere yazılım geliştirme eğitimi vermek",
+      "category": "Eğitim",
+      "status": "active",
+      "impact": "Bölgesel",
+      "startDate": "2024-01-15",
+      "endDate": "2024-12-31",
+      "image": "📚",
+      "cover": "gradient-to-r from-blue-500 to-blue-700",
+      "owner": {
+        "id": "user-001",
+        "name": "Ayşe Çelik",
+        "avatar": "👩‍💼",
+        "role": "Yönetici"
+      },
+      "members": [
+        {
+          "id": "user-001",
+          "name": "Ayşe Çelik",
+          "avatar": "👩‍💼",
+          "role": "admin",
+          "joinedDate": "2024-01-15",
+          "hoursContributed": 145
+        },
+        {
+          "id": "user-002",
+          "name": "Mehmet Kaya",
+          "avatar": "👨‍💻",
+          "role": "member",
+          "joinedDate": "2024-02-01",
+          "hoursContributed": 92
+        },
+        {
+          "id": "user-003",
+          "name": "Zeynep Aydın",
+          "avatar": "👩‍🎓",
+          "role": "member",
+          "joinedDate": "2024-02-10",
+          "hoursContributed": 78
+        }
+      ],
+      "tasks": [
+        {
+          "id": "task-001",
+          "title": "Ders Materyali Hazırlama",
+          "description": "HTML/CSS/JavaScript ders materyallerini türkçeleştir",
+          "status": "in-progress",
+          "priority": "high",
+          "assignedTo": "user-002",
+          "dueDate": "2024-03-30",
+          "progress": 65
+        },
+        {
+          "id": "task-002",
+          "title": "Sınıf Yönetimi Sistemi",
+          "description": "Öğrencilerin takibini yapabilecek sistem geliştir",
+          "status": "completed",
+          "priority": "high",
+          "assignedTo": "user-001",
+          "dueDate": "2024-02-28",
+          "progress": 100
+        },
+        {
+          "id": "task-003",
+          "title": "Final Projesi Değerlendirmesi",
+          "description": "Öğrenci final projelerini değerlendir",
+          "status": "todo",
+          "priority": "medium",
+          "assignedTo": null,
+          "dueDate": "2024-04-15",
+          "progress": 0
+        }
+      ],
+      "budget": {
+        "total": 50000,
+        "spent": 32500,
+        "currency": "TRY"
+      },
+      "volunteers": 45,
+      "beneficiaries": 250,
+      "hoursLogged": 1250,
+      "stats": {
+        "tasksCompleted": 15,
+        "tasksInProgress": 8,
+        "tasksTodo": 12
+      },
+      "visibility": "public",
+      "tags": ["eğitim", "teknoloji", "gençlik"]
+    },
+    {
+      "id": "project-002",
+      "title": "Çevre Temizliği Kampanyası",
+      "description": "Merkez Park ve çevre alanları temizliğine katılın",
+      "category": "Çevre",
+      "status": "active",
+      "impact": "Yerel",
+      "startDate": "2024-03-01",
+      "endDate": "2024-05-31",
+      "image": "🌿",
+      "cover": "gradient-to-r from-green-500 to-teal-700",
+      "owner": {
+        "id": "user-003",
+        "name": "Zeynep Aydın",
+        "avatar": "👩‍🎓",
+        "role": "Yönetici"
+      },
+      "members": [
+        {
+          "id": "user-003",
+          "name": "Zeynep Aydın",
+          "avatar": "👩‍🎓",
+          "role": "admin",
+          "joinedDate": "2024-03-01",
+          "hoursContributed": 56
+        }
+      ],
+      "tasks": [],
+      "budget": {
+        "total": 15000,
+        "spent": 8900,
+        "currency": "TRY"
+      },
+      "volunteers": 120,
+      "beneficiaries": 5000,
+      "hoursLogged": 456,
+      "stats": {
+        "tasksCompleted": 5,
+        "tasksInProgress": 2,
+        "tasksTodo": 3
+      },
+      "visibility": "public",
+      "tags": ["çevre", "temizlik", "doğa"]
+    }
+  ],
+  "templates": [
+    {
+      "id": "template-001",
+      "name": "Eğitim Projesi",
+      "description": "Eğitim ve öğretim faaliyetleri için tam şablon",
+      "category": "Eğitim",
+      "icon": "📚",
+      "defaultTasks": [
+        "Ders Materyali Hazırlama",
+        "Sınıf Yönetimi",
+        "Değerlendirme Sistemi",
+        "Öğrenci Takibi"
+      ],
+      "defaultRoles": ["Eğitmen", "Asistan", "Öğrenci"]
+    },
+    {
+      "id": "template-002",
+      "name": "Sosyal Sorumluluk Projesi",
+      "description": "Sosyal yardım ve toplum hizmetleri projesi",
+      "category": "Sosyal",
+      "icon": "🤝",
+      "defaultTasks": [
+        "Ihtiyaç Analizi",
+        "Kaynak Temin Etme",
+        "Uygulama",
+        "Sonuç Raporlaması"
+      ],
+      "defaultRoles": ["Koordinatör", "Volontör", "Destekçi"]
+    },
+    {
+      "id": "template-003",
+      "name": "Çevre Projesi",
+      "description": "Çevre koruma ve doğa gönüllülüğü projesi",
+      "category": "Çevre",
+      "icon": "🌿",
+      "defaultTasks": [
+        "Alan Hazırlığı",
+        "Temizlik Kampanyası",
+        "Ağaçlandırma",
+        "Değerlendirme"
+      ],
+      "defaultRoles": ["Proje Müdürü", "Alan Sorumlusu", "Volontör"]
+    },
+    {
+      "id": "template-004",
+      "name": "Sağlık Kampanyası",
+      "description": "Sağlık bilinçlendirme ve yardım projesi",
+      "category": "Sağlık",
+      "icon": "🏥",
+      "defaultTasks": [
+        "Sağlık Taraması",
+        "Bilgilendirme Semineri",
+        "Kayıt Sistemi",
+        "Takip"
+      ],
+      "defaultRoles": ["Doktor/Hemşire", "Danışman", "Koordinatör"]
+    }
+  ]
+}

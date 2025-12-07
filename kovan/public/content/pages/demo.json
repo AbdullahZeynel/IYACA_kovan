@@ -1,0 +1,266 @@
+{
+  "pageTitle": "Demo Paneli - Jüri Sunum",
+  "pageDescription": "Platformu canlı deneyimleyin",
+  "hero": {
+    "title": "Jüri Demo Paneli",
+    "subtitle": "Platformun gücünü kendi adınızla deneyimleyin"
+  },
+  "demoUsers": [
+    {
+      "username": "jury-member-1",
+      "password": "demo2024!",
+      "name": "Jüri Üyesi Demo",
+      "role": "volunteer"
+    },
+    {
+      "username": "jury-org-1",
+      "password": "demo2024!",
+      "name": "STK Demo",
+      "role": "organization"
+    }
+  ],
+  "volunteerDemo": {
+    "title": "Gönüllü Profilini Keşfet",
+    "description": "Bu demo hesabı, aktif bir gönüllünün profilini göstermektedir",
+    "profile": {
+      "id": "demo-volunteer-001",
+      "name": "Sayın Jüri Üyesi",
+      "city": "İstanbul",
+      "avatar": "/images/demo/jury-avatar.jpg",
+      "joinDate": "2024-09-15",
+      "totalHours": 142,
+      "projectsCompleted": 8,
+      "currentLevel": 3,
+      "levelTitle": "Deneyimli Gönüllü",
+      "levelProgress": 67,
+      "xpPoints": 3450,
+      "nextLevelXp": 5000,
+      "bio": "Hoş geldiniz! Bu, platformun gönüllü deneyimini göstermektedir.",
+      "interests": ["Eğitim", "Teknoloji", "Çevre"],
+      "badges": [
+        {
+          "id": "badge-1",
+          "name": "Başlangıç",
+          "description": "İlk projeyi tamamladı",
+          "earnedDate": "2024-09-20",
+          "icon": "🚀"
+        },
+        {
+          "id": "badge-2",
+          "name": "Ustalaşan",
+          "description": "5 proje tamamladı",
+          "earnedDate": "2024-10-05",
+          "icon": "⭐"
+        },
+        {
+          "id": "badge-3",
+          "name": "Sosyal Ağ Kurucusu",
+          "description": "2 gönüllüyü platformda etkinleştirdi",
+          "earnedDate": "2024-10-28",
+          "icon": "🤝"
+        }
+      ],
+      "recentContributions": [
+        {
+          "id": "contrib-1",
+          "projectTitle": "Dijital Okuryazarlık Anketinin Doldurulması",
+          "date": "2024-11-25",
+          "hours": 0.25,
+          "type": "micro",
+          "status": "completed"
+        },
+        {
+          "id": "contrib-2",
+          "projectTitle": "İlkokul Öğrencilerine Kod Yazmanın Temelleri Eğitimi",
+          "date": "2024-11-20",
+          "hours": 5,
+          "type": "workshop",
+          "status": "completed"
+        },
+        {
+          "id": "contrib-3",
+          "projectTitle": "Yazılım Uygulamaları Türkçe Çeviri Projesi",
+          "date": "2024-11-15",
+          "hours": 4,
+          "type": "micro",
+          "status": "completed"
+        }
+      ],
+      "upcomingTasks": [
+        {
+          "id": "task-1",
+          "title": "Yurt Dışında Yaşayan Türkler İçin Türkçe Çeviri",
+          "type": "micro",
+          "estimatedHours": 2,
+          "deadline": "2024-12-10",
+          "status": "assigned"
+        }
+      ],
+      "impactSummary": {
+        "directImpact": "142 saatlik hizmet, ortalama 18 kişiyi etkiledi",
+        "skillsGained": ["İletişim", "Proje Yönetimi", "Teknik Yazı"],
+        "certificateUrl": "/demo/certificate-volunteer.pdf"
+      }
+    },
+    "features": [
+      {
+        "title": "Dijital Profil",
+        "description": "Katkılarınız, rozetleriniz ve ilerlemeniz görüntülenebilir"
+      },
+      {
+        "title": "Etkinlik Keşfi",
+        "description": "Sizin için uygun gönüllülük fırsatlarını bulmak kolay"
+      },
+      {
+        "title": "İmiklik Takibi",
+        "description": "Saatler, projeleri ve sosyal etkiyi otomatik olarak tutulur"
+      },
+      {
+        "title": "Sertifika & Rozetler",
+        "description": "Çalışmalarınız için dijital kimlik varlıkları alırsınız"
+      }
+    ]
+  },
+  "organizationDemo": {
+    "title": "Kurum Panelini Keşfet",
+    "description": "Bu demo hesabı, STK yönetim panelini göstermektedir",
+    "organization": {
+      "id": "demo-org-001",
+      "name": "Demo STK - Gönüllülük Projesi",
+      "type": "ngo",
+      "logo": "/images/demo/org-logo.jpg",
+      "joinDate": "2024-05-10",
+      "activeProjects": 4,
+      "totalVolunteers": 127,
+      "totalHours": 1240,
+      "averageRating": 4.7
+    },
+    "dashboardSections": [
+      {
+        "title": "Gönüllü İlanı Oluşturma",
+        "description": "Yeni gönüllülük fırsatlarını ilan etmek çok kolay",
+        "demo": "5 aktif ilan bulunmaktadır"
+      },
+      {
+        "title": "Başvuru Yönetimi",
+        "description": "Gönüllü başvurularını kabul, reddet veya incelev",
+        "demo": "23 beklemede başvuru"
+      },
+      {
+        "title": "Gönüllü Takibi",
+        "description": "Aktif gönüllüleri, saatlerini ve ilerlemeyi izleyin",
+        "demo": "127 aktif gönüllü, ortalama 9.8 saat/kişi"
+      },
+      {
+        "title": "Etki Raporlama",
+        "description": "Otomatik oluşturulan etki raporlarını indirin",
+        "demo": "3 rapor (Aylık, Üç-aylık, Yıllık)"
+      },
+      {
+        "title": "Analitikler",
+        "description": "Gönüllü demografisi, saat dağılımı ve trend grafikleri",
+        "demo": "Real-time analytics dashboard"
+      }
+    ],
+    "sampleReports": [
+      {
+        "title": "Kasım 2024 Etki Raporu",
+        "date": "2024-11-30",
+        "volunteers": 45,
+        "hours": 187,
+        "projects": 6,
+        "format": "PDF",
+        "downloadUrl": "/demo/report-november-2024.pdf"
+      }
+    ],
+    "features": [
+      {
+        "title": "Kolay İlan Yönetimi",
+        "description": "Şablon kullanarak dakikalar içinde yeni ilanlar oluşturun"
+      },
+      {
+        "title": "Otomatik Eşleştirme",
+        "description": "AI sistem, uygun gönüllüleri projelerinize önerir"
+      },
+      {
+        "title": "İmiklik Takibi",
+        "description": "Gönüllülerin saatlerini ve çıktılarını otomatik takip edin"
+      },
+      {
+        "title": "Etki Ölçümleme",
+        "description": "Etkinliği ölçülen metriklerle gösterin"
+      },
+      {
+        "title": "Dışa Aktarma",
+        "description": "Raporları CSV, PDF, Excel formatında indirin"
+      }
+    ]
+  },
+  "interactiveElements": {
+    "title": "Deneyim Edebileceğiniz Özellikler",
+    "elements": [
+      {
+        "name": "Etkileşimli Harita",
+        "description": "Türkiye'deki gönüllülük yoğunluğunu görmek için ilin üzerine gelin"
+      },
+      {
+        "name": "Gönüllü Filtresi",
+        "description": "İlgi alanı, sehir ve katkı türüne göre gönüllüleri bulun"
+      },
+      {
+        "name": "Canlı İstatistikler",
+        "description": "Platformun gerçek zamanlı verisini görmek içinPanoyu kontrol edin"
+      },
+      {
+        "name": "Form Müsveddeesi",
+        "description": "Gerçek kayıt formunu deneyin (kaydedilmez)"
+      }
+    ]
+  },
+  "instructions": {
+    "title": "Demo Sunum Talimatları",
+    "description": "Sunum sırasında aşağıdaki adımları izleyin",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Ana Sayfayı Gösterin",
+        "description": "Platform paradoksunu ve istatistikleri açıklayın"
+      },
+      {
+        "step": 2,
+        "title": "Demo Gönüllü Profiline Giriş Yapın",
+        "description": "Gönüllü deneyimini ve ilerlemeyi gösterin"
+      },
+      {
+        "step": 3,
+        "title": "İnteraktif Haritayı Keşfet",
+        "description": "Türkiye'deki gönüllülük yoğunluğunu göz gezdirin"
+      },
+      {
+        "step": 4,
+        "title": "Etkinlik Sayfasında Filtreleme Yapın",
+        "description": "Gönüllü nasıl proje bulur, gösterebilirsiniz"
+      },
+      {
+        "step": 5,
+        "title": "Demo Kurum Paneline Geçin",
+        "description": "STK perspektifini gösterin"
+      },
+      {
+        "step": 6,
+        "title": "Etki Raporu İndirin",
+        "description": "Veri-driven raporlamayı gösterin"
+      },
+      {
+        "step": 7,
+        "title": "Blog Yazısını Okuyun",
+        "description": "Araştırma derinliğini gösterin"
+      }
+    ]
+  },
+  "supportLink": {
+    "text": "Demo sırasında sorun mu yaşıyorsunuz?",
+    "buttonText": "Canlı Destek",
+    "contactEmail": "demo-support@gonullulukplatformu.gov.tr"
+  }
+}

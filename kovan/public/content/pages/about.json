@@ -1,0 +1,164 @@
+{
+  "pageTitle": "Hakkımızda",
+  "pageDescription": "Proje misyonu, vizyonu ve kurumsal yapısı",
+  "hero": {
+    "title": "Türkiye Dijital Gönüllülük Dönüşüm Projesi Hakkında",
+    "subtitle": "Gönüllülüğü sistematik, görünür ve ölçülebilir kılmak için çalışıyoruz"
+  },
+  "visionMission": {
+    "vision": {
+      "title": "Vizyon",
+      "content": "Türkiye'de, her vatandaşın gönüllü çalışmasını tanınan, ölçülen ve takdir edilen bir ekosistem oluşturmak. Bu ekosistemde, bireyler, kurumlar ve devlet bir araya gelerek, sosyal etki üretmek için iş birliği yapıyor."
+    },
+    "mission": {
+      "title": "Misyon",
+      "content": "Gönüllülüğü dijitalleştirerek, bireylerin yeteneklerini fırsatlarla buluşturan, kuruluşların etkisini ölçen ve politika yapıcılara veri-temelli kararlar sunan bir ulusal platform geliştirmek."
+    }
+  },
+  "background": {
+    "title": "Proje Arka Planı",
+    "content": "Türkiye'de gönüllülük kültürü güçlü olmasına rağmen, uluslararası sıralamalarda 121. sırada yer almaktadır. Bu paradoks, gönüllü çalışmasının sistematik olarak kaydedilmemesi, ölçülmemesi ve kurumlar arası koordinasyon eksikliğinden kaynaklanmaktadır.\n\nBu sorunları çözmek için, bir dijital platform geliştirmenin gerekliliği ortaya çıkmıştır. Proje, akademik araştırma, teknoloji ve kamu politikasını bir araya getirerek, gönüllülüğü Türkiye'nin kalkınma stratejisinin merkezine koymayı hedeflemektedir.",
+    "ctaButton": "Araştırma Detaylarını Oku",
+    "ctaLink": "/mission"
+  },
+  "targetAudience": {
+    "title": "Hedef Kitle",
+    "description": "Platform, farklı paydaşlara benzersiz değer sunmaktadır",
+    "audiences": [
+      {
+        "id": "individuals",
+        "title": "Bireysel Gönüllüler",
+        "description": "Katkılarının takip edilmesi, dijital profil oluşturması ve kişisel gelişimine veri almak.",
+        "icon": "user"
+      },
+      {
+        "id": "ngos",
+        "title": "STK ve Sosyal Kuruluşlar",
+        "description": "Gönüllü bulma, proje yönetimi ve etki raporlama araçları.",
+        "icon": "building"
+      },
+      {
+        "id": "government",
+        "title": "Kamu Kurumları",
+        "description": "Gönüllülük politikası geliştirmek ve sosyal etki programlarını yönetmek.",
+        "icon": "landmark"
+      },
+      {
+        "id": "universities",
+        "title": "Üniversiteler & Araştırma",
+        "description": "Gönüllülük davranışı ve sosyal etki üzerine akademik veri kaynağı.",
+        "icon": "book"
+      },
+      {
+        "id": "private",
+        "title": "Özel Sektor",
+        "description": "Kurumsal sosyal sorumluluk programlarını dijitalleştirmek ve ölçmek.",
+        "icon": "briefcase"
+      },
+      {
+        "id": "researchers",
+        "title": "Araştırmacılar & Analistler",
+        "description": "Açık veri kaynağı olarak sosyal etki analitiği yapabilmek.",
+        "icon": "microscope"
+      }
+    ]
+  },
+  "partnerships": {
+    "title": "Kurumsal İş Birlikleri ve Destekleyiciler",
+    "subtitle": "Platformu kuvvetlendiren ulusal ve uluslararası ortaklar",
+    "partners": [
+      {
+        "id": "partner-001",
+        "name": "İTÜ Sosyal Etki Merkezi",
+        "description": "Teknoloji ve sosyal etki araştırması",
+        "logo": "/images/partners/itu-logo.svg",
+        "type": "Akademik Kurum"
+      },
+      {
+        "id": "partner-002",
+        "name": "TÜSEV (Türkiye Üçüncü Sektor Vakfı)",
+        "description": "Sivil toplum kuruluşları ağı ve danışmanlık",
+        "logo": "/images/partners/tusev-logo.svg",
+        "type": "STK"
+      },
+      {
+        "id": "partner-003",
+        "name": "TUBITAK",
+        "description": "Bilimsel araştırma destek ve teknoloji politikası",
+        "logo": "/images/partners/tubitak-logo.svg",
+        "type": "Kamu Kurumu"
+      },
+      {
+        "id": "partner-004",
+        "name": "Aile ve Sosyal Hizmetler Bakanlığı",
+        "description": "Sosyal politika ve gönüllülük mevzuatı",
+        "logo": "/images/partners/ministry-logo.svg",
+        "type": "Kamu Kurumu"
+      },
+      {
+        "id": "partner-005",
+        "name": "Boğaziçi Üniversitesi İktisadi Araştırmalar Enstitüsü",
+        "description": "Ekonomik etki analizi ve veri bilimi",
+        "logo": "/images/partners/bogazici-logo.svg",
+        "type": "Akademik Kurum"
+      },
+      {
+        "id": "partner-006",
+        "name": "United Nations Volunteers (UNV)",
+        "description": "Uluslararası gönüllülük verisi ve metodoloji",
+        "logo": "/images/partners/unv-logo.svg",
+        "type": "Uluslararası Org."
+      }
+    ]
+  },
+  "team": {
+    "title": "Proje Ekibi",
+    "subtitle": "Projeyi gerçekleştiren akademisyen, teknolog ve politika uzmanları",
+    "members": [
+      {
+        "id": "member-001",
+        "name": "Prof. Dr. Ahmet Yılmaz",
+        "title": "Proje Müdürü, Sosyal Etki Araştırmaları",
+        "bio": "İTÜ'de sosyal kalkınma ve gönüllülük politikası üzerine 15+ yıl araştırma deneyimi.",
+        "image": "/images/team/ahmet-yilmaz.jpg"
+      },
+      {
+        "id": "member-002",
+        "name": "Yasemin Şener",
+        "title": "Teknik Müdür, Veri ve Yazılım Mimarı",
+        "bio": "Başta dijital hükümet projeleri olmak üzere, büyük ölçekli platform geliştirmede uzman.",
+        "image": "/images/team/yasemin-sener.jpg"
+      },
+      {
+        "id": "member-003",
+        "name": "Dr. Burak Çetin",
+        "title": "Araştırma Koordinatörü, Sosyolog",
+        "bio": "Türkiye'de gönüllülük davranışı, oyunlaştırma ve sosyal motivasyon uzmanı.",
+        "image": "/images/team/burak-cetin.jpg"
+      },
+      {
+        "id": "member-004",
+        "name": "Zeynep Akçay",
+        "title": "İçerik ve İletişim Müdürü",
+        "bio": "Dijital platformlar ve sosyal etki iletişimi alanında stratejik danışman.",
+        "image": "/images/team/zeynep-akcay.jpg"
+      }
+    ]
+  },
+  "advisoryBoard": {
+    "title": "Danışma Kurulu",
+    "subtitle": "Proje stratejisini şekillendiren ulusal liderler",
+    "advisors": [
+      {
+        "name": "Emekli Büyükelçi Suat Kılıç",
+        "title": "Diplomat ve Kamu Politikası Uzmanı",
+        "organization": "Türkiye Dışişleri Bakanlığı (Eski)"
+      },
+      {
+        "name": "Prof. Dr. İnci Kara",
+        "title": "Sosyal Hizmet ve Refah Politikası",
+        "organization": "Ankara Üniversitesi"
+      }
+    ]
+  }
+}

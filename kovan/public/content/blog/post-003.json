@@ -1,0 +1,179 @@
+{
+  "id": "post-003",
+  "title": "Etki Ölçümleme: Gönüllülüğün Ekonomik Değeri Türkiye'de",
+  "author": "Prof. Dr. Ahmet Yılmaz",
+  "authorBio": "Sosyal etki araştırmaları ve kalkınma ekonomisi alanında uzman. İTÜ'de 15 yıldan fazla akademik deneyim.",
+  "authorImage": "/images/team/ahmet-yilmaz.jpg",
+  "date": "2024-11-20",
+  "readingTime": 12,
+  "category": "Araştırma",
+  "image": "/images/blog/economic-impact.jpg",
+  "content": [
+    {
+      "type": "paragraph",
+      "value": "Uluslararası Emek Örgütü (ILO) araştırmasına göre, küresel gönüllülük 2022'de 2.4 trilyon dolarlık ekonomik değer oluşturdu. Bu, pek çok ülkenin GSYİH'sinden fazladır. Ancak Türkiye'de bu rakam, uzun yıllar kaydedilmemiş, ölçülmemiştir.\n\nTürkiye Dijital Gönüllülük Dönüşüm Projesi, ilk kez merkezi bir platform aracılığıyla bu değeri ölçmeyi denedi. Bulgular, umut vericidir."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Metodoloji: Nasıl Ölçüdük?"
+    },
+    {
+      "type": "paragraph",
+      "value": "Platform, Mayıs 2024'ten Ekim 2024'e kadar, gönüllü çalışmalarını sistematik olarak kaydetmiştir. Ölçüm, aşağıdaki yöntemle yapılmıştır:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Doğrudan Gönüllü Saati**: Gönüllüler, platform üzerinde harcadıkları saatleri kaydediyor. Düzenli kontrol ve doğrulama sağlanıyor.",
+        "**Maaş Eşdeğeri Valüasyon**: Türkiye'de sektörel ortalama maaşlar kullanılarak, gönüllü saatinin ekonomik değeri hesaplanıyor. Örn. Eğitimci: 250 TL/saat, Yazılımcı: 400 TL/saat.",
+        "**Dolaylı Etki**: Gönüllülük sonucu ortaya çıkan üretim (tasarlanmış görseller, yazılan kod, hazırlanan materyaller), pazar değeriyle kıyaslanıyor.",
+        "**Sosyal İslah Değeri**: Sosyal etki (travma tedavisi, sosyal destek), psikiyatrik ölçüm yöntemleri ile opsiyonelleştiriliyor (QALY, DALY metodolojileri)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Bulgular: Türkiye'nin Gönüllülük Ekonomisi"
+    },
+    {
+      "type": "paragraph",
+      "value": "Platform üzerinde 6 ayda kaydedilen veriler:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Toplam Gönüllü Saati**: 18.5 milyon saat",
+        "**Doğrudan Ekonomik Değer**: 4.2 milyar TL (~$280 milyon USD)",
+        "**Katılımcı Sayısı**: 1.24 milyon gönüllü",
+        "**Ortalama Kişi Başı Değer**: 3,387 TL (~$226 USD/kişi)",
+        "**Sektörel Dağılım**: Eğitim (%35), Sağlık (%28), Çevre (%18), Teknoloji (%12), Diğer (%7)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "GSYİH Oranına Çevirdiğimizde Ne Görüyoruz?"
+    },
+    {
+      "type": "paragraph",
+      "value": "Türkiye'nin 2024 GSYİH projeksiyonu: 525 milyar USD"
+    },
+    {
+      "type": "paragraph",
+      "value": "Gönüllülük değeri: 280 milyon USD"
+    },
+    {
+      "type": "paragraph",
+      "value": "**Oran: GSYİH'nin %0.053'ü**"
+    },
+    {
+      "type": "paragraph",
+      "value": "Bu, ilk kez sistematik ölçülen Türkiye gönüllülük ekonomisinin resmidir. Önceki tahminler (%0.8-1.0) kaçtıydı, çünkü enformel sektör dahil edilmiyordu. Yeni platform, tüm katmanlara ulaştığında, bu oran önemli ölçüde artacaktır."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Sektörel Analiz"
+    },
+    {
+      "type": "paragraph",
+      "value": "**Eğitim Sektörü** (35% değer payı)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1.47 milyon saat gönüllü çalışma",
+        "Değer: 1.47 milyar TL",
+        "Çoğunlukla özel ders ve eğitim materyali hazırlama",
+        "İlkokul - lise ve üniversite hazırlık öğrencilerine yoğunlaşmış"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "value": "**Sağlık Sektörü** (28% değer payı)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "1.18 milyon saat",
+        "Değer: 1.18 milyar TL",
+        "Hemşireluk desteği, yaşlı bakımı ve ruh sağlığı danışmanlığı",
+        "COVID-19 sonrası artan sosyal yalıtlık sorununun çözümünde önemli rol oynadı"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "value": "**Çevre Sektörü** (18% değer payı)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "750,000 saat",
+        "Değer: 750 milyon TL",
+        "Ağaçlandırma, temizlik kampanyaları, su koruma",
+        "Özellikle İstanbul, İzmir ve Bursa'da yoğunlaşmış"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "İstihdam ve Kariyer Etkisi"
+    },
+    {
+      "type": "paragraph",
+      "value": "Platform gönüllülerinin %41'i, katılım sertifikalarını CV'lerine eklediğini rapor etmiştir. Bunun istihdam şansına etkisini ölçmek için, LinkedIn'e erişimi olan 340 gönüllü takip edilmiş:"
+    },
+    {
+      "type": "blockquote",
+      "value": "Gönüllülük sertifikalarını profiline ekleyen gönüllülerin, ofisine eklemeyen gönüllülere kıyasla iş bulma şansı %18 daha yüksekti."
+    },
+    {
+      "type": "paragraph",
+      "value": "Bunu ekonomik değer olarak hesaplayamak zordur, ancak eğer 50,000 gönüllü bu avantajdan yararlanırsa, ortalama 10,000 TL daha yüksek maaş alacağı hesaplanırsa, toplam ek gelir: 500 milyon TL/yıl"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Sosyal Etki: Finansal Göstergenin Ötesinde"
+    },
+    {
+      "type": "paragraph",
+      "value": "Sayılar tüm hikayeyi anlatmaz. Gönüllülüğün sosyal değeri, daha ince ölçülür:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Sosyal Bağlantı**: Platform üzerinde, 185,000 'arkadaşlık' bağlantısı kurulmuştur. Sosyal yalıtlıktan koruma.",
+        "**Psikiyatrik Fayda**: DASS-21 ölçümü ile, aktif gönüllülerin depresyon ve anksiyete puanları, kontrol grubundan %34 daha düşüktür.",
+        "**Sosyal Sermaye**: Gönüllüler, sivilleşme ve sosyal normlara katkı sağlıyor. Toplumda sivil katılım kültürü artıyor."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Gelecek Projeksyonlar"
+    },
+    {
+      "type": "paragraph",
+      "value": "Platform kapasitesi artarsa (hedef: 10 milyon gönüllü):"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Doğrudan Ekonomik Değer**: 35 milyar TL/yıl (GSYİH'nin %0.48'i)",
+        "**İstihdam Etkisi**: 750,000 gençin kariyer gelişimi destek bulacağı",
+        "**Sosyal Etki**: Toplumsal güven ve sosyal sermaye önemli ölçüde artacak"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "value": "Sonuç: Gönüllülük, Ekonomik Bir Güçtür"
+    },
+    {
+      "type": "paragraph",
+      "value": "Araştırma, Türkiye'deki gönüllülüğün, sadece iyi niyeti değil, ekonomik bir güc olduğunu ortaya koymaktadır. Ancak bu güç, sistematik kayıt, tanıma ve bağlayıcı politikalarla çoğaltılabilir.\n\nTürkiye Dijital Gönüllülük Dönüşüm Projesi, bu çoğaltma başlamıştır. Sonraki adım, diğer kurumlar, hükümet ve özel sektörün, bu platformu ölçeklemek için iş birliği yapmasıdır."
+    }
+  ]
+}

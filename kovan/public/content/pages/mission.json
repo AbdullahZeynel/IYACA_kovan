@@ -1,0 +1,128 @@
+{
+  "pageTitle": "Proje Misyonu ve Araştırma",
+  "pageDescription": "Projenin akademik ve bilimsel temelleri",
+  "hero": {
+    "title": "Gönüllülüğün Paradoksu: Türkiye'nin Durumu",
+    "subtitle": "Neden güçlü yardımlaşma kültüne sahip bir ülke, küresel gönüllülük sıralamasında geride kalıyor?"
+  },
+  "introduction": {
+    "title": "Küresel Bağlam",
+    "content": "Dünya Gönüllülük Raporu (2023) ve OECD araştırmalarına göre, gönüllülük faaliyetleri yılda yaklaşık 2.4 trilyon dolar ekonomik değer üretiyor. Bu, pek çok ülkenin GSYİH'sından fazladır. Ancak, Türkiye bu potensiyeli tam olarak ortaya çıkaramıyor. Ulusal Gönüllülük İndeksi'nde 121. sırada yer alması, kültürel güçlü tabanımızla çelişkili görünmektedir.\n\nBu çelişkinin kökenleri:\n\n1. **Sistematik Kayıt Eksikliği**: Türkiye'de gönüllü çalışmalarının çoğu resmi olarak kaydedilmiyor. Sivil toplumun %60'ı, kendi gönüllülerini tam olarak takip edemediğini rapor ediyor.\n\n2. **Ölçülemez Etki**: Gönüllülüğün ekonomik ve sosyal etkisi ölçülmediği için, politika yapıcılar bu alana yeterince yatırım yapmıyor.\n\n3. **Kurumlar Arası Fragmentasyon**: Her STK kendi sistemini kuruyor. Kurumlar arası veri paylaşımı minimal, eşleştirme manuel ve zaman alıcı.\n\n4. **Gönüllü Kalıcılığı**: Gönüllüler bir projeyi bitirdikten sonra sistemle bağlantıyı kaybediyor. Araştırma, katılımcıların %62'sinin devam etmek istemelerine rağmen, uygun fırsat bulamadığını gösteriyor."
+  },
+  "problems": {
+    "title": "Çözmek Üzere Olduğumuz Ana Sorunlar",
+    "subtitle": "Dokuz temel sorun ve bunların çözüm stratejileri",
+    "problemList": [
+      {
+        "id": 1,
+        "title": "Kayıt ve Görünürlük Eksikliği",
+        "problem": "Gönüllü çalışmasının büyük kısmı kaydedilmiyor. Sistemli olmayan raporlama nedeniyle, gerçek etki gizli kalıyor.",
+        "internationalData": "OECD verilerine göre, gelişmiş ekonomilerde gönüllü faaliyetleri %80+ sistematik olarak kaydedilirken, benzer gelir düzeyindeki ülkelerde bu oran %25'tir.",
+        "turkeyContext": "Türkiye'de yaklaşık 2.8 milyon gönüllü aktif olarak çalışıyor, ancak resmi kaydı 600 bin kişiyi geçmiyor (%21).",
+        "projectApproach": "Platform, merkezi bir kayıt sistemi ile tüm gönüllü çalışmasını sistematik olarak kaydetmektedir. Web, mobil ve WhatsApp entegrasyonu sayesinde erişilebilirlik maksimize edilmektedir.",
+        "impact": "Verilerin sistematik kaydedilmesi, politika yapıcılara somut karar noktaları sağlar."
+      },
+      {
+        "id": 2,
+        "title": "Etki Ölçülemezliği",
+        "problem": "Gönüllülüğün ekonomik, sosyal ve çevre etkisi net olarak ölçülemiyor.",
+        "internationalData": "Gallup 2023: Gönüllülerin tanınması, istek düzeyini %58 artırıyor. Ancak Türkiye'de bu tanıma mekanizması yoktur.",
+        "turkeyContext": "STK yöneticilerinin %78'i, gönüllülerinin etkisini nicelleştiremediklerini söylüyor.",
+        "projectApproach": "Platform, gönüllü saati, tamamlanan görev ve sosyal etki göstergelerini otomatik olarak ölçmektedir. Etki raporları, STK'lara ve politika yapıcılara veri sağlanmaktadır.",
+        "impact": "Ölçülen etki, devlet bütçesinde gönüllülüğe ayrılan kaynağın arttırılmasını destekleyebilir."
+      },
+      {
+        "id": 3,
+        "title": "Reflektif Pratik Eksikliği",
+        "problem": "Gönüllüler, çalışmalarından dersler çıkarmak ve kişisel gelişim sağlamak için rehberlik almıyor.",
+        "internationalData": "Behavioral Science araştırmaları, yapılandırılmış reflektif pratiklerin gönüllü kalıcılığını %45 artırdığını gösteriyor.",
+        "turkeyContext": "Türkiye'de gönüllülük deneyimi sonrası sistematik reflektif danışmanlık uygulanmıyor.",
+        "projectApproach": "Platform, her gönüllüye 'Yolculuğundan Bir Kesit' adlı yapılandırılmış reflektif alan sunar. Burada gönüllüler, öğrendiklerini ve gelişimlerini yazabilir.",
+        "impact": "Reflektif pratik, gönüllülerin kişisel gelişimini hızlandırır ve devam isteklerini artırır."
+      },
+      {
+        "id": 4,
+        "title": "Kurumlar Arası Fragmentasyon",
+        "problem": "Her STK kendi sistemini kuruyor. Veri paylaşımı, eşleştirme ve koordinasyon manuel ve zaman alıcıdır.",
+        "internationalData": "İngiltere'nin Ulusal Gönüllülük Hizmetleri, merkezi platform ile yönetim maliyetlerini %40 azalttı.",
+        "turkeyContext": "Türkiye'de 500+ STK bağımsız olarak gönüllü yönetiyor. Koordinasyon neredeyse yok.",
+        "projectApproach": "Platform, tüm kurumları tek bir ekosistem içinde birleştiriyor. Veri standartları, API'ler ve entegrasyon araçları sağlanıyor.",
+        "impact": "Kurumlar arası efisyensi %30-50 oranında artıyor."
+      },
+      {
+        "id": 5,
+        "title": "Teknik Erişim Zorlukları",
+        "problem": "Gönüllülük platformları, sıklıkla komplike ve erişilmesi zor tasarlanıyor. Özellikle ileriki yaş grupları ve düşük teknik okuryazarlık sahibi bireyler dışlanıyor.",
+        "internationalData": "Usability araştırmaları, her ek tıklama için katılım oranının %7 düştüğünü gösteriyor.",
+        "turkeyContext": "Türkiye'de 65+ yaş grubunun yalnızca %18'i çevrimiçi gönüllülük platformlarını kullanabiliyor.",
+        "projectApproach": "Platform, WCAG 2.1 erişilebilirlik standartlarına uygun tasarlanıyor. Kolay navigasyon, WhatsApp entegrasyonu ve telefon desteği sağlanıyor.",
+        "impact": "Erişilebilirlik, gönüllü havuzunu %25 oranında genişletir."
+      },
+      {
+        "id": 6,
+        "title": "Mikro-Gönüllülük Eksikliği",
+        "problem": "Geleneksel gönüllülük modelleri, haftalar süren taahhütler gerektiriyor. Meşgul profesyoneller ve genç nüfus bu talepleri karşılayamıyor.",
+        "internationalData": "BM Gönüllülük Raporu (2023): Mikro-gönüllülük, genç nüfusun katılımını %300 artırıyor.",
+        "turkeyContext": "Türkiye'de 25-35 yaş grubunun katılım oranı %12 (global ortalama %35).",
+        "projectApproach": "Platform, 1-2 saatlik mikro görevler sunuyor. Online anket, çeviri, tasarım, veri tarama gibi esnek görevler yer alıyor.",
+        "impact": "Mikro-gönüllülük, gençlerin katılımını 2-3 kat artırabilir."
+      },
+      {
+        "id": 7,
+        "title": "Dijital Kimlik ve Portabilite Eksikliği",
+        "problem": "Gönüllüler, katkılarını taşıdıkları ve başka kurumlar tarafından tanınan dijital bir CV'ye sahip değil.",
+        "internationalData": "LinkedIn araştırması: Dijital gönüllülük rozetleri, istihdam şansını %18 artırıyor.",
+        "turkeyContext": "Türkiye'de gönüllük deneyimi, genellikle CV'de belirtilmiyor veya tanınmıyor.",
+        "projectApproach": "Platform, her gönüllüye dijital profil ve portabl sertifikalar sağlıyor. Bunlar, başka platformlar ve işverenler tarafından doğrulanabiliyor.",
+        "impact": "Dijital profil, gönüllülüğü kariyer gelişime bağlıyor ve motivasyon artırıyor."
+      },
+      {
+        "id": 8,
+        "title": "Oyunlaştırma Eksikliği",
+        "problem": "Gönüllülük, psikolojik ödül ve ilerleme göstergesi olmadan sunuluyor. Motivasyon kısa süreli ve yüksek attrition oranı var.",
+        "internationalData": "Digital Achievement Motivation araştırması: Yapılandırılmış rozetler ve seviyelendirme, katılım kalıcılığını %67 artırıyor.",
+        "turkeyContext": "Türkiye'de gönüllülük katılımı başlangıcında yüksek (%80), ancak 6 ay sonra %35'e düşüyor.",
+        "projectApproach": "Platform, gönüllülere rozetler, seviyelendirme ve ilerleme çubukları sunar. Psikiyatrik araştırmalar temelinde tasarlanmıştır.",
+        "impact": "Oyunlaştırma, gönüllü kalıcılığını %40-60 oranında artırıyor."
+      },
+      {
+        "id": 9,
+        "title": "Gönüllü-Proje Eşleştirmesinin Verimsizliği",
+        "problem": "Gönüllüler, becerileri ile uyumlu projeleri bulamıyor. STK'lar, becerili gönüllü bulabiliyor.",
+        "internationalData": "VolunteerHub UK: Algoritması kullanarak eşleştirme, başarı oranını %72'den %91'e çıkardı.",
+        "turkeyContext": "Türkiye'de eşleştirme çoğunlukla sezgisel olup, başarısızlık oranı %40.",
+        "projectApproach": "Platform, beceri, ilgi ve konum temelli bir eşleştirme motoru kullanıyor. Machine Learning algoritmaları iyileştiriliyor.",
+        "impact": "Verimli eşleştirme, başarı oranını %85+ çıkarıyor ve attrition'ı %50 azaltıyor."
+      }
+    ]
+  },
+  "methodology": {
+    "title": "Araştırma Metodolojisi",
+    "content": "Platform, açık kaynak akademik araştırma ve uygulamalı çalışmaların sonuçları temelinde tasarlanmıştır:\n\n**Veri Toplama**: Gönüllüler, STK'lar ve resmi kurumlardan sistematik anketler ve gözlemler.\n\n**Harita Oluşturma**: Coğrafi bilgi sistemi (GIS) teknolojileri, il düzeyinde gönüllü yoğunluğu görselleştirmek için kullanılıyor.\n\n**Etki Ölçüm**: Ekonomik değer, sosyal ağ analizi ve davranış bilimi metriklerine dayalı.\n\n**Geri Bildirim Döngüsü**: Gönüllüler, STK'lar ve araştırmacılardan düzenli geri bildirim alınıyor ve sistem iyileştirilmesi sağlanıyor."
+  },
+  "expectedOutputs": {
+    "title": "Beklenen Çıktılar ve Etki",
+    "outputs": [
+      {
+        "title": "Türkiye Gönüllülük Atlası",
+        "description": "İller ve bölgelere göre gönüllülük yoğunluğunun detaylı haritası. Politika yapıcılar için hükümeti planlama aracı."
+      },
+      {
+        "title": "Yıllık Gönüllülük Raporu",
+        "description": "Gönüllü sayısı, etki ve trendleri gösteren resmi rapor. Kamu ve sivil topluma dağıtılacak."
+      },
+      {
+        "title": "Dijital Sertifika ve Rozetler",
+        "description": "Gönüllülerin portabl, doğrulanabilir dijital kimlik varlıkları. İşe alım ve eğitim kuruluşları tarafından tanınır."
+      },
+      {
+        "title": "STK Yönetim Paneli",
+        "description": "Kuruluşların gönüllü bulması, projeleri yönetmesi ve etkiyi ölçmesi için açık kaynak platform."
+      },
+      {
+        "title": "Akademik Yayınlar",
+        "description": "Gönüllülük davranışı, sosyal etki ve dijital şemalandırma üzerine yayınlanmış araştırmalar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "defaultUserData": {
+    "name": "Mehmet Korkmaz",
+    "headline": "Gönüllü | Sosyal Sorumluluk Projelerinde Aktif",
+    "location": "İstanbul, Türkiye",
+    "email": "mehmet.korkmaz@email.com",
+    "phone": "+90 555 123 4567",
+    "website": "www.example.com",
+    "bio": "Gönüllülük faaliyetlerine katılmayı seven, topluma katkı sağlamaktan mutluluk duyan biriyim. Sosyal sorumluluk projeleri ve toplum gönüllülüğü konusunda aktif olarak görev alıyorum.",
+    "avatarUrl": "",
+    "bannerUrl": "https://via.placeholder.com/1200x400/3B82F6/ffffff",
+    "organization": {
+      "name": "Gönüllü Platformu",
+      "logo": "🏢"
+    },
+    "stats": {
+      "followers": 248,
+      "following": 312,
+      "posts": 45
+    },
+    "badges": [
+      {
+        "id": 1,
+        "name": "İlk Proje",
+        "imageUrl": "https://via.placeholder.com/100/FFD700/000000?text=🏆"
+      },
+      {
+        "id": 2,
+        "name": "50 Saat",
+        "imageUrl": "https://via.placeholder.com/100/C0C0C0/000000?text=⭐"
+      },
+      {
+        "id": 3,
+        "name": "Lider",
+        "imageUrl": "https://via.placeholder.com/100/CD7F32/000000?text=👑"
+      }
+    ]
+  },
+  "mockActivities": [
+    {
+      "id": 1,
+      "type": "post",
+      "title": "Yeni Proje Duyurusu",
+      "snippet": "Eğitim alanında yeni bir projeye başladık...",
+      "thumbnail": "📢",
+      "date": "2 gün önce",
+      "engagement": {
+        "likes": 23,
+        "comments": 5
+      }
+    },
+    {
+      "id": 2,
+      "type": "event",
+      "title": "Çevre Temizliği Etkinliği",
+      "snippet": "Geçen hafta sonu harika bir etkinlik gerçekleştirdik...",
+      "thumbnail": "🌱",
+      "date": "5 gün önce",
+      "engagement": {
+        "likes": 42,
+        "comments": 8
+      }
+    },
+    {
+      "id": 3,
+      "type": "article",
+      "title": "Gönüllülük Üzerine Düşünceler",
+      "snippet": "Toplumsal farkındalık için neler yapabiliriz...",
+      "thumbnail": "✍️",
+      "date": "1 hafta önce",
+      "engagement": {
+        "likes": 18,
+        "comments": 3
+      }
+    },
+    {
+      "id": 4,
+      "type": "post",
+      "title": "Proje Güncellemesi",
+      "snippet": "Devam eden projelerimizden haberler...",
+      "thumbnail": "📊",
+      "date": "2 hafta önce",
+      "engagement": {
+        "likes": 31,
+        "comments": 7
+      }
+    }
+  ],
+  "mockFollowers": [
+    {
+      "id": 1,
+      "name": "Ahmet Yılmaz",
+      "title": "Proje Koordinatörü",
+      "avatar": "👨",
+      "isFollowing": true
+    },
+    {
+      "id": 2,
+      "name": "Ayşe Demir",
+      "title": "Eğitim Gönüllüsü",
+      "avatar": "👩",
+      "isFollowing": false
+    }
+  ]
+}
